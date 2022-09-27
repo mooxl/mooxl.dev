@@ -7,7 +7,7 @@ const Contact = ({ data }: { data: any }) => {
         ? <h3>Vielen Dank für deine Nachricht!</h3>
         : (
           <form method="POST" className="space-y-3">
-            {!data?.sent && <h3>Etwas ist schief gelaufen :(</h3>}
+            {data?.sent === false && <h3>Etwas ist schief gelaufen :(</h3>}
             <div className="space-y-1">
               <label for="mail">
                 E-Mail
