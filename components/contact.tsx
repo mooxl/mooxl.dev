@@ -1,5 +1,5 @@
 import { PageProps } from "$fresh/server.ts";
-const Contact = ({ data }) => {
+const Contact = ({ data }: { data: any }) => {
   return (
     <>
       <h3>Kontakt</h3>
@@ -7,7 +7,7 @@ const Contact = ({ data }) => {
         ? <h3>Vielen Dank für deine Nachricht!</h3>
         : (
           <form method="POST" className="space-y-3">
-            {data && <h3>Etwas ist schief gelaufen :(</h3>}
+            {!data?.sent && <h3>Etwas ist schief gelaufen :(</h3>}
             <div className="space-y-1">
               <label for="mail">
                 E-Mail

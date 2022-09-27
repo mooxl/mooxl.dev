@@ -48,7 +48,7 @@ export default function Index({ data }: PageProps<{ sent?: boolean }>) {
           <Experience />
           <Skills />
           <Projects />
-          <Contact sent={data.sent} />
+          <Contact sent={data?.sent} />
           <Footer />
         </>
       </div>
