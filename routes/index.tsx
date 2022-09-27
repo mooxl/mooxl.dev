@@ -5,7 +5,7 @@ import Experience from "../components/experience.tsx";
 import Skills from "../components/skills.tsx";
 import Projects from "../components/projects.tsx";
 import Contact from "../components/contact.tsx";
-import { Handlers } from "$fresh/server.ts";
+import { Handlers, PageProps } from "$fresh/server.ts";
 
 export const handler: Handlers = {
   async POST(req, ctx) {
@@ -34,19 +34,22 @@ export const handler: Handlers = {
     }
   },
 };
-export default function Index() {
+export default function Index({ data }: PageProps<{ sent: boolean }>) {
   return (
     <div class="max-w-xl my-5 mx-auto lg:mx-2 text-sm text-white font-plex leading-none tracking-wide">
       <div class="grid grid-cols-desktop gap-x-5 lg:grid-cols-1  gap-y-10 lg:gap-y-0">
-        {
-          /* <Menu />
-        <Me />
-        <Education />
-        <Experience />
-        <Skills />
-        <Projects /> */
-        }
-        <Contact />
+        {data.sent
+          ? (
+            <>
+              <Menu />
+              <Me />
+              <Education />
+              <Experience />
+              <Skills />
+              <Projects />
+            </>
+          )
+          : <Contact />}
       </div>
     </div>
   );
