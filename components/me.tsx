@@ -12,9 +12,13 @@ const Me = () => (
         bei Ambient.
       </p>
     </div>
-    <div class="rounded-full overflow-hidden w-15 flex-shrink-0 md:order-1">
-      <img src="pixels/me.webp" alt="Portrait von Max Schmidt" />
-    </div>
+    <img
+      class="rounded-full flex-shrink-0 md:order-1"
+      src="pixels/me.webp"
+      height="150"
+      width="150"
+      alt="Portrait von Max Schmidt"
+    />
   </div>
 );
 
