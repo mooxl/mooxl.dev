@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const Project = (props: {
   link: string;
   domain: string;
@@ -9,33 +7,33 @@ const Project = (props: {
   matteo?: boolean;
 }) => (
   <a href={props.link} rel="noopener" target="_blank">
-    <motion.div
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
-      className={`rounded-xl p-0.3 h-full bg-gradient-to-r from-[${props.from}] to-[${props.to}] cursor-pointer`}
+    <div
+      class={`rounded-xl p-0.3 h-full bg-gradient-to-r from-[${props.from}] to-[${props.to}] cursor-pointer`}
     >
-      <div className="bg-gray rounded-lg p-2 text-center h-full">
+      <div class="bg-gray rounded-lg p-2 text-center h-full">
         <h4>{props.domain}</h4>
         <p>{props.technologies}</p>
-        {props.matteo && (
+        {
+          /*  {props.matteo && (
           <a
-            className="hover:text-white"
+            class="hover:text-white"
             href="https://github.com/matteohoeren"
             target="_blank"
             rel="noopener"
           >
             gemacht mit Matteo
           </a>
-        )}
+        )} */
+        }
       </div>
-    </motion.div>
+    </div>
   </a>
 );
 
 const Projects = () => (
   <>
     <h3>Projekte</h3>
-    <div className="grid grid-cols-2 sm:grid-cols-1 gap-3">
+    <div class="grid grid-cols-2 sm:grid-cols-1 gap-3">
       <Project
         link="https://www.laufach.de"
         domain="laufach.de"

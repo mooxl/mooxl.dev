@@ -1,6 +1,6 @@
 const Menu = () => (
   <div class="
-      flex justify-end mt-0.8 lg:justify-start lg:mt-0 lg:mb-2 md:justify-end md:-mb-4
+      flex items-start justify-end mt-0.8 lg:justify-start lg:mt-0 lg:mb-2 md:justify-end md:-mb-4
     ">
     <a
       href="/Lebenslauf.pdf"
