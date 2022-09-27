@@ -34,11 +34,11 @@ export const handler: Handlers = {
     }
   },
 };
-export default function Index({ data }: PageProps<{ sent: boolean }>) {
+export default function Index({ data }: PageProps<{ sent?: boolean }>) {
   return (
     <div class="max-w-xl my-5 mx-auto lg:mx-2 text-sm text-white font-plex leading-none tracking-wide">
       <div class="grid grid-cols-desktop gap-x-5 lg:grid-cols-1  gap-y-10 lg:gap-y-0">
-        {data.sent &&
+        {data?.sent &&
           (
             <>
               <Menu />
