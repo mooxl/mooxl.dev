@@ -3,7 +3,7 @@ const Contact = ({ data }) => {
   return (
     <>
       <h3>Kontakt</h3>
-      {data && data.sent
+      {data && data?.sent
         ? <h3>Vielen Dank für deine Nachricht!</h3>
         : (
           <form method="POST" className="space-y-3">
