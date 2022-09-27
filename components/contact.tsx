@@ -1,5 +1,5 @@
 import { PageProps } from "$fresh/server.ts";
-const Contact = ({ data }: PageProps<{ sent?: boolean }>) => {
+const Contact = ({ data }) => {
   return (
     <>
       <h3>Kontakt</h3>
