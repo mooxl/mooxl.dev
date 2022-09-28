@@ -23,7 +23,7 @@ const Experience = () => (
     <div class="space-y-3 lg:space-y-2">
       <Milestone
         title="Ambient"
-        role="Frontend Developer "
+        role="Frontend Web Developer - Werksstudent"
         date="seit April 2022, Köln"
         list={[
           "Implementierung diverser Features in unterschiedlichen Codebasen",
@@ -51,7 +51,7 @@ const Experience = () => (
       />
       <Milestone
         title="AStA FH Aachen"
-        role="Front- und Backend Web Developer"
+        role="Front- und Backend Web Developer - Werksstudent"
         date="seit November 2018, Aachen"
         list={[
           "Entwicklung und Instandhaltung verschiedener Systeme in Node.js, Deno, Golang und Python",

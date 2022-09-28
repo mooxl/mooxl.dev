@@ -97,7 +97,7 @@ export default {
     body: {
       body: apply`text-sm text-white font-plex leading-none tracking-wide`,
       h1: apply`text-xl leading-none font-bold`,
-      h2: apply`text-lg text-gray-light`,
+      h2: apply`text-lg font-bold text-gray-light`,
       h3:
         apply`text-right uppercase text-md font-bold text-gray-light lg:mt-6 lg:mb-2 lg:text-left`,
       h4: apply`text-white font-bold text-md mb-1.5 lg:mb-1 md:mb-0.8`,

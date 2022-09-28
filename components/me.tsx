@@ -2,7 +2,7 @@ const Me = () => (
   <div class="flex md:flex-col justify-between gap-10 md:gap-y-3 items-center md:items-start">
     <div class="md:order-2">
       <h1>Max Schmidt</h1>
-      <h2 class="my-1 text-lg font-bold text-gray-light">
+      <h2 class="my-1">
         Full Stack Web Developer
       </h2>
       <p>
