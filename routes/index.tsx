@@ -10,6 +10,19 @@ import Footer from "../components/footer.tsx";
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 export const handler: Handlers = {
+  async GET(req, ctx) {
+    const cookie = req.headers.get("cookie");
+    if (cookie && cookie.includes("lang")) {
+      return await ctx.render({ lang: cookie.split("=")[1] });
+    } else {
+      const lang = req.headers.get("accept-language")?.includes("de")
+        ? "de"
+        : "en";
+      const res = await ctx.render({ lang: lang });
+      res.headers.set("Set-Cookie", `lang=${lang}`);
+      return res;
+    }
+  },
   async POST(req, ctx) {
     try {
       const form = await req.formData();
@@ -37,13 +50,17 @@ export const handler: Handlers = {
     }
   },
 };
-export default function Index({ data }: PageProps<{ sent?: boolean }>) {
+export default function Index(
+  { data }: PageProps<{ sent?: boolean; lang: "en" | "de" }>,
+) {
   return (
     <div class="grid grid-cols-desktop gap-x-5 lg:grid-cols-1  gap-y-10 lg:gap-y-0">
       <Menu />
+
       <Me />
-      <Education />
+      {data.lang === "en" ? "EN" : "DE"}
       <Experience />
+      <Education />
       <Skills />
       <Projects />
       <Contact sent={data?.sent} />
