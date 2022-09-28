@@ -7,23 +7,15 @@ import Projects from "../components/projects.tsx";
 import Contact from "../components/contact.tsx";
 import Footer from "../components/footer.tsx";
 
+import { State, Translation } from "../utils/types.ts";
+
 import { Handlers, PageProps } from "$fresh/server.ts";
 
-export const handler: Handlers = {
-  async GET(req, ctx) {
-    const cookie = req.headers.get("cookie");
-    if (cookie && cookie.includes("lang")) {
-      return await ctx.render({ lang: cookie.split("=")[1] });
-    } else {
-      const lang = req.headers.get("accept-language")?.includes("de")
-        ? "de"
-        : "en";
-      const res = await ctx.render({ lang: lang });
-      res.headers.set("Set-Cookie", `lang=${lang}`);
-      return res;
-    }
+export const handler: Handlers<any, State> = {
+  GET(_req, ctx) {
+    return ctx.render({ translation: ctx.state.translation });
   },
-  async POST(req, ctx) {
+  /*  async POST(req, ctx) {
     try {
       const form = await req.formData();
       if (form.has("mail") && form.has("message")) {
@@ -48,23 +40,24 @@ export const handler: Handlers = {
       console.log(e);
       return ctx.render({ sent: false });
     }
-  },
+  }, */
 };
-export default function Index(
-  { data }: PageProps<{ sent?: boolean; lang: "en" | "de" }>,
-) {
+const Index = (
+  { data }: PageProps<State>,
+) => {
   return (
     <div class="grid grid-cols-desktop gap-x-5 lg:grid-cols-1  gap-y-10 lg:gap-y-0">
       <Menu />
+      <Me translation={data.translation.me} />
 
-      <Me />
-      {data.lang === "en" ? "EN" : "DE"}
       <Experience />
       <Education />
       <Skills />
       <Projects />
-      <Contact sent={data?.sent} />
+      {/*<Contact sent={data?.sent} />*/}
       <Footer />
     </div>
   );
-}
+};
+
+export default Index;
