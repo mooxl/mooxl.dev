@@ -1,5 +1,48 @@
 {
   "me": {
     "text": "Gude! Ich bin am 29.01.1996 in Aschaffenburg geboren und bin dabei, das Internet schöner und schneller zu machen.</br> Lebe in Köln-Ehrenfeld, studiere wieder in Aachen und arbeite momentan bei Ambient."
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "jobs": [
+      {
+        "name": "Ambient",
+        "role": "Frontend Web Developer - Werksstudent",
+        "date": "seit April 2022, Köln",
+        "tasks": [
+          "Implementierung diverser Features in unterschiedlichen Codebasen",
+          "Beheben von Bugs an abwechslungsreichen Diensten"
+        ]
+      },
+      {
+        "name": "Mediaatrium GmbH",
+        "role": "Full Stack Developer",
+        "date": "Februar 2021 - März 2022, Laufach",
+        "tasks": [
+          "Front- und Backend-Entwicklung mittels TypeScript im Rahmen verschiedener Projekte",
+          "Überarbeitung der kompletten serverseitigen Infrastruktur via Docker",
+          "Optimierung interner technischer Prozesse"
+        ]
+      },
+      {
+        "name": "Curly UG",
+        "role": "Mitgründer",
+        "date": "Dezember 2019 - Februar 2021, Aachen",
+        "tasks": [
+          "Konzeption und teilweise Umsetzung einer sozialen Foodsharing-Plattform mit Golang und Flutter",
+          "Webentwicklung für eigene Website und verschiedene Kunden unter Becurly"
+        ]
+      },
+      {
+        "name": "AStA FH Aachen",
+        "role": "Front- und Backend Web Developer - Werksstudent",
+        "date": "seit November 2018, Aachen",
+        "tasks": [
+          "Entwicklung und Instandhaltung verschiedener Systeme in Node.js, Deno, Golang und Python",
+          "Konzeption und Umsetzung der Wohnbörse \"Zimmerfrei\" der Uni Bonn",
+          "Erweiterung der elektronischen Semesterticketrückerstattung"
+        ]
+      }
+    ]
   }
 }

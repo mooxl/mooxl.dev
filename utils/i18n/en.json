@@ -1,5 +1,48 @@
 {
   "me": {
-    "text": "I was born on 29.01.1996 in Aschaffenburg and in the process of making the internet more beautiful and faster.</br> Live in Cologne-Ehrenfeld, study again in Aachen and currently work at Ambient."
+    "text": "I was born on 29.01.1996 in Aschaffenburg and in the process of making the internet more beautiful and faster.</br> Living in Cologne-Ehrenfeld, studying again in Aachen and currently working at Ambient."
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "name": "Ambient",
+        "role": "Frontend Web Developer - Working student",
+        "date": "since April 2022, Cologne",
+        "tasks": [
+          "Implementation of various features in different code bases.",
+          "Fixing bugs on varied services"
+        ]
+      },
+      {
+        "name": "Mediaatrium",
+        "role": "Full Stack Developer",
+        "date": "February 2021 - March 2022, Laufach",
+        "tasks": [
+          "Front- and backend development using TypeScript in the context of various projects",
+          "Revision of the complete server-side infrastructure via Docker",
+          "Optimisation of internal technical processes"
+        ]
+      },
+      {
+        "name": "Curly UG",
+        "role": "Co-founder",
+        "date": "December 2019 - February 2021, Aachen",
+        "tasks": [
+          "Conception and partial implementation of a social food sharing platform with Golang and Flutter",
+          "Web development for own our website and various clients under Becurly"
+        ]
+      },
+      {
+        "name": "AStA FH Aachen",
+        "role": "Front- und Backend Web Developer - Werksstudent",
+        "date": "seit November 2018, Aachen",
+        "tasks": [
+          "Development and maintenance of various systems in Node.js, Deno, Golang and Python",
+          "Conception and implementation of the housing exchange \"Zimmerfrei\" of the University of Bonn",
+          "Extension of the electronic semester ticket reimbursement"
+        ]
+      }
+    ]
   }
 }
