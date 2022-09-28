@@ -24,21 +24,29 @@ const Skills = () => (
           "Three.js",
           "Node",
           "Fastify",
+          "Nest.js",
           "Deno",
           "Oak",
+          "Fresh",
+          "Astro",
+          "Framer Motion",
           "Tailwind CSS",
         ]}
       />
       <Section
         title="Weitere Kenntnisse"
         skills={[
-          "Linux Server",
+          "Linux",
           "Docker",
+          "Kubernetes",
           "Directus",
+          "Strapi",
           "Traefik",
           "Git",
           "HTML",
           "SCSS",
+          "SQL",
+          "NoSQL",
           "Deutsch",
           "Englisch (fließend)",
         ]}
