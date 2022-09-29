@@ -83,13 +83,11 @@ export default {
     "@font-face": [
       {
         fontFamily: "Plex",
-        fontDisplay: "swap",
         src: 'url(/fonts/Plex-Regular.woff2) format("woff2")',
       },
       {
         fontFamily: "Plex",
         fontWeight: "bold",
-        fontDisplay: "swap",
         src: 'url(/fonts/Plex-Bold.woff2) format("woff2")',
       },
     ],

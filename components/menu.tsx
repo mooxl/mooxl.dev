@@ -1,6 +1,8 @@
-const Menu = () => (
+import Language from "../islands/language.tsx";
+import { State } from "../utils/types.ts";
+const Menu = (data: { lang: State["lang"] }) => (
   <div class="
-      flex items-start justify-end mt-0.8 lg:justify-start lg:mt-0 lg:mb-2 md:justify-end md:-mb-4
+      flex flex-col gap-2 items-end mt-0.8 lg:justify-start lg:mt-0 lg:mb-2 md:justify-end md:-mb-4
     ">
     <a
       href="/Lebenslauf.pdf"
@@ -13,6 +15,7 @@ const Menu = () => (
         alt="CV"
       />
     </a>
+    <Language lang={data.lang} />
   </div>
 );
 export default Menu;

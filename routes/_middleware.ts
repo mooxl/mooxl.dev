@@ -12,15 +12,16 @@ export const handler = [
   ) {
     const cookie = req.headers.get("cookie");
     if (cookie && cookie.includes("lang")) {
-      ctx.state.translation = cookie.split("=")[1] === "en" ? en : de;
+      ctx.state.lang = cookie.split("=")[1] as "en" | "de";
+      ctx.state.translation = ctx.state.lang === "en" ? en : de;
       return await ctx.next();
     } else {
-      const lang = req.headers.get("accept-language")?.includes("de")
+      ctx.state.lang = req.headers.get("accept-language")?.includes("de")
         ? "de"
         : "en";
-      ctx.state.translation = lang === "en" ? en : de;
+      ctx.state.translation = ctx.state.lang === "en" ? en : de;
       const res = await ctx.next();
-      res.headers.set("Set-Cookie", `lang=${lang}`);
+      res.headers.set("Set-Cookie", `lang=${ctx.state.lang}`);
       return res;
     }
   },

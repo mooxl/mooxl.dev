@@ -7,13 +7,16 @@ import Projects from "../components/projects.tsx";
 import Contact from "../components/contact.tsx";
 import Footer from "../components/footer.tsx";
 
-import { State, Translation } from "../utils/types.ts";
+import { State } from "../utils/types.ts";
 
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 export const handler: Handlers<any, State> = {
   GET(_req, ctx) {
-    return ctx.render({ translation: ctx.state.translation });
+    return ctx.render({
+      translation: ctx.state.translation,
+      lang: ctx.state.lang,
+    });
   },
   /*  async POST(req, ctx) {
     try {
@@ -47,10 +50,10 @@ const Index = (
 ) => {
   return (
     <div class="grid grid-cols-desktop gap-x-5 lg:grid-cols-1  gap-y-10 lg:gap-y-0">
-      <Menu />
+      <Menu lang={data.lang} />
       <Me translation={data.translation.me} />
-      <Experience translation={data.translation.experience} />
       <Education />
+      <Experience translation={data.translation.experience} />
       <Skills />
       <Projects />
       {/*<Contact sent={data?.sent} />*/}
