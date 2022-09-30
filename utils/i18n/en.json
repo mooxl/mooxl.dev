@@ -1,6 +1,30 @@
 {
   "me": {
-    "text": "Gude! I was born on 29.01.1996 in Aschaffenburg and in the process of making the internet more beautiful and faster.</br> Living in Cologne-Ehrenfeld, studying again in Aachen and currently working at Ambient."
+    "text": "Gude! I was born on 29.01.1996 in Aschaffenburg and in the process of making the internet more beautiful and faster.\n Living in Cologne-Ehrenfeld, studying again in Aachen and currently working at Ambient."
+  },
+  "education": {
+    "title": "Education",
+    "milestones": [
+      {
+        "title": "FH Aachen | M. Eng. Information Systems Engineering",
+        "date": "since March 2022, Aachen"
+      },
+      {
+        "title": "FH Aachen | B. Sc. Informatik",
+        "date": "September 2017 - February 2021, Aachen",
+        "text": "Bachelor of Science\nFocus: Software Engineering"
+      },
+      {
+        "title": "FOSBOS Aschaffenburg",
+        "date": "2012-2015, Aschaffenburg",
+        "text": "Technical Diploma\nFocus: technology, mathematics and natural sciences"
+      },
+      {
+        "title": "Realschule Bessenbach",
+        "date": "2008-2012, Bessenbach",
+        "text": "Medium Maturity\nFocus: mathematics and natural science"
+      }
+    ]
   },
   "experience": {
     "title": "Experience",
@@ -44,5 +68,58 @@
         ]
       }
     ]
+  },
+  "skills": {
+    "title": "Skills",
+    "sections": [
+      {
+        "title": "Programming languages",
+        "skills": ["JavaScript", "TypeScript", "Golang", "C++", "Python"]
+      },
+      {
+        "title": "Librarys and Frameworks",
+        "skills": [
+          "React",
+          "Next.js",
+          "Vue",
+          "Nuxt.js",
+          "Three.js",
+          "Node",
+          "Fastify",
+          "Nest.js",
+          "Deno",
+          "Oak",
+          "Fresh",
+          "Astro",
+          "Framer Motion",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Further knowledge",
+        "skills": [
+          "Linux",
+          "Docker",
+          "Kubernetes",
+          "Directus",
+          "Strapi",
+          "Traefik",
+          "Git",
+          "HTML",
+          "SCSS",
+          "SQL",
+          "NoSQL",
+          "German",
+          "English"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "footer": {
+    "imprint": "imprint",
+    "privacy": "privacy policy"
   }
 }

@@ -1,3 +1,5 @@
+import { Translation } from "../utils/types.ts";
+
 const Section = (props: { title: string; skills: string[] }) => (
   <>
     <h4>{props.title}</h4>
@@ -6,51 +8,12 @@ const Section = (props: { title: string; skills: string[] }) => (
     </div>
   </>
 );
-const Skills = () => (
+
+const Skills = (data: { translation: Translation["skills"] }) => (
   <>
-    <h3>Skills</h3>
+    <h3>{data.translation.title}</h3>
     <div class="space-y-3">
-      <Section
-        title="Programmiersprachen"
-        skills={["JavaScript", "TypeScript", "Golang", "C++", "Python"]}
-      />
-      <Section
-        title="Bibliotheken und Frameworks"
-        skills={[
-          "React",
-          "Next.js",
-          "Vue",
-          "Nuxt.js",
-          "Three.js",
-          "Node",
-          "Fastify",
-          "Nest.js",
-          "Deno",
-          "Oak",
-          "Fresh",
-          "Astro",
-          "Framer Motion",
-          "Tailwind CSS",
-        ]}
-      />
-      <Section
-        title="Weitere Kenntnisse"
-        skills={[
-          "Linux",
-          "Docker",
-          "Kubernetes",
-          "Directus",
-          "Strapi",
-          "Traefik",
-          "Git",
-          "HTML",
-          "SCSS",
-          "SQL",
-          "NoSQL",
-          "Deutsch",
-          "Englisch (fließend)",
-        ]}
-      />
+      {data.translation.sections.map((section) => <Section {...section} />)}
     </div>
   </>
 );

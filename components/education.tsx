@@ -1,3 +1,5 @@
+import { Translation } from "../utils/types.ts";
+
 const Milestone = (props: { title: string; date: string; text?: string }) => (
   <div>
     <div class="flex justify-between md:flex-col">
@@ -7,29 +9,13 @@ const Milestone = (props: { title: string; date: string; text?: string }) => (
     {props.text && <p class="whitespace-pre-wrap">{props.text}</p>}
   </div>
 );
-const Education = () => (
+const Education = (data: { translation: Translation["education"] }) => (
   <>
-    <h3>Ausbildung</h3>
+    <h3>{data.translation.title}</h3>
     <div class="space-y-3 lg:space-y-2">
-      <Milestone
-        title="FH Aachen | M. Eng. Information Systems Engineering"
-        date="seit März 2022, Aachen"
-      />
-      <Milestone
-        title="FH Aachen | B. Sc. Informatik"
-        date="September 2017 - Februar 2021, Aachen"
-        text={`Bachelor of Science\nSchwerpunkt: Software Engineering`}
-      />
-      <Milestone
-        title="FOSBOS Aschaffenburg"
-        date="2012-2015, Aschaffenburg"
-        text={`Fachabitur\nSchwerpunkte: Technologie, Mathematik und Naturwissenschaften`}
-      />
-      <Milestone
-        title="Realschule Bessenbach"
-        date="2008-2012, Bessenbach"
-        text={`Mittlere Reife\nSchwerpunkte: Mathematik und Naturwissenschaft`}
-      />
+      {data.translation.milestones.map((milestone) => (
+        <Milestone {...milestone} />
+      ))}
     </div>
   </>
 );

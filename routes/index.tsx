@@ -52,12 +52,12 @@ const Index = (
     <div class="grid grid-cols-desktop gap-x-5 lg:grid-cols-1  gap-y-10 lg:gap-y-0">
       <Menu lang={data.lang} />
       <Me translation={data.translation.me} />
-      <Education />
+      <Education translation={data.translation.education} />
       <Experience translation={data.translation.experience} />
-      <Skills />
-      <Projects />
+      <Skills translation={data.translation.skills} />
+      <Projects translation={data.translation.projects} />
       {/*<Contact sent={data?.sent} />*/}
-      <Footer />
+      <Footer translation={data.translation.footer} />
     </div>
   );
 };

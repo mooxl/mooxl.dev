@@ -1,3 +1,5 @@
+import { Translation } from "../utils/types.ts";
+
 const Project = (props: {
   link: string;
   domain: string;
@@ -13,26 +15,14 @@ const Project = (props: {
       <div class="bg-gray rounded-lg p-2 text-center h-full">
         <h4>{props.domain}</h4>
         <p>{props.technologies}</p>
-        {
-          /*  {props.matteo && (
-          <a
-            class="hover:text-white"
-            href="https://github.com/matteohoeren"
-            target="_blank"
-            rel="noopener"
-          >
-            gemacht mit Matteo
-          </a>
-        )} */
-        }
       </div>
     </div>
   </a>
 );
 
-const Projects = () => (
+const Projects = (data: { translation: Translation["projects"] }) => (
   <>
-    <h3>Projekte</h3>
+    <h3>{data.translation.title}</h3>
     <div class="grid grid-cols-2 sm:grid-cols-1 gap-3">
       <Project
         link="https://www.laufach.de"

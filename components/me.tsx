@@ -7,7 +7,8 @@ const Me = (data: { translation: Translation["me"] }) => (
       <h2 class="my-1">
         Full Stack Web Developer
       </h2>
-      <p dangerouslySetInnerHTML={{ __html: data.translation.text }}>
+      <p class="whitespace-pre-wrap">
+        {data.translation.text}
       </p>
     </div>
     <img
