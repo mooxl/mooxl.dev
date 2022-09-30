@@ -94,11 +94,11 @@ export default {
     html: apply`text-html bg-gray`,
     body: {
       body: apply`text-sm text-white font-plex leading-none tracking-wide`,
-      h1: apply`text-xl leading-none font-bold`,
-      h2: apply`text-lg font-bold text-gray-light`,
+      h1: apply`text-xl leading-none font-bold sm:text-lg`,
+      h2: apply`text-lg font-bold text-gray-light sm:text-md`,
       h3:
-        apply`text-right uppercase text-md font-bold text-gray-light lg:mt-6 lg:mb-2 lg:text-left`,
-      h4: apply`text-white font-bold text-md mb-1.5 lg:mb-1 md:mb-0.8`,
+        apply`text-right uppercase text-md font-bold text-gray-light lg:mt-6 lg:mb-2 md:mt-4 lg:text-left`,
+      h4: apply`text-white font-bold text-md  mb-1.5 lg:mb-1 md:mb-0.8`,
       h5: apply`text-gray-light leading-snug`,
       ul: apply`list-disc list-inside`,
       li: apply`text-gray-light leading-normal`,

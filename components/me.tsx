@@ -12,7 +12,7 @@ const Me = (data: { translation: Translation["me"] }) => (
       </p>
     </div>
     <img
-      class="rounded-full flex-shrink-0 md:order-1"
+      class="rounded-full flex-shrink-0 md:order-1 md:w-5"
       src="pixels/me.webp"
       height="150"
       width="150"
