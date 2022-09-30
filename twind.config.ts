@@ -1,8 +1,4 @@
-import { Options } from "$fresh/plugins/twind.ts";
-import { apply } from "twind";
-
 export default {
-  selfURL: import.meta.url,
   theme: {
     fontSize: {
       html: "62.5%",
@@ -79,7 +75,7 @@ export default {
       },
     },
   },
-  preflight: {
+  /* preflight: {
     "@font-face": [
       {
         fontFamily: "Plex",
@@ -91,6 +87,7 @@ export default {
         src: 'url(/fonts/Plex-Bold.woff2) format("woff2")',
       },
     ],
+
     html: apply`text-html bg-gray`,
     body: {
       body: apply`text-sm text-white font-plex leading-none tracking-wide`,
@@ -106,5 +103,5 @@ export default {
       p: apply`text-gray-light leading-snug`,
       label: apply`text-gray-light leading-snug`,
     },
-  },
-} as Options;
+  }, */
+};
