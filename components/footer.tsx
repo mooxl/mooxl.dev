@@ -14,7 +14,7 @@ const Footer = (data: { translation: Translation["footer"] }) => (
       >
         <img class="w-full" src="vectors/github.svg" alt="Logo von GitHub" />
       </a>
-      <a href="https://fresh.deno.dev">
+      <a href="https://fresh.deno.dev" class="w-15">
         <img
           width="197"
           height="37"
