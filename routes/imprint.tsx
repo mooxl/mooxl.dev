@@ -1,4 +1,4 @@
-const Impressum = () => (
+const Imprint = () => (
   <div class="space-y-2">
     <h1>Impressum</h1>
     <h2>Angaben gemäß § 5 TMG:</h2>
@@ -65,4 +65,4 @@ const Impressum = () => (
     </p>
   </div>
 );
-export default Impressum;
+export default Imprint;

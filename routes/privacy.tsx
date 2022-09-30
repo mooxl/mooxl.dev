@@ -1,4 +1,4 @@
-const Datenschutz = () => (
+const Privacy = () => (
   <div class="space-y-2">
     <h1>Datenschutz</h1>
     <p>
@@ -276,4 +276,4 @@ const Datenschutz = () => (
     </p>
   </div>
 );
-export default Datenschutz;
+export default Privacy;
