@@ -7,7 +7,6 @@ const Contact = (data: { translation: Translation["contact"] }) => {
     mail: "",
     message: "",
   });
-  console.log(data.translation);
   const submit = async (event: Event) => {
     event.preventDefault();
     try {
