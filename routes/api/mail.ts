@@ -2,20 +2,19 @@ import { Handlers, Status } from "$fresh/server.ts";
 import { SMTPClient } from "smtp";
 import { generate } from "../../utils/generate.ts";
 
-const client = new SMTPClient({
-  connection: {
-    hostname: Deno.env.get("hostname")!,
-    port: +Deno.env.get("port")!,
-    tls: true,
-    auth: {
-      username: Deno.env.get("username")!,
-      password: await generate(Deno.env.get("password")!),
-    },
-  },
-});
-
 export const handler: Handlers = {
   async POST(request: Request) {
+    const client = new SMTPClient({
+      connection: {
+        hostname: Deno.env.get("hostname")!,
+        port: +Deno.env.get("port")!,
+        tls: true,
+        auth: {
+          username: Deno.env.get("username")!,
+          password: await generate(Deno.env.get("password")!),
+        },
+      },
+    });
     const body: { mail: string; message: string } | undefined = JSON.parse(
       new TextDecoder().decode(
         (await request.body?.getReader().read()).value,
