@@ -10,7 +10,7 @@ const Project = (props: {
 }) => (
   <a href={props.link} rel="noopener" target="_blank">
     <div
-      class={`rounded-xl p-0.3 h-full bg-gradient-to-r from-[${props.from}] to-[${props.to}] cursor-pointer`}
+      class={`rounded-xl p-0.3 h-full bg-gradient-to-r from-[${props.from}] to-[${props.to}] cursor-pointer transition-transform hover:scale-105`}
     >
       <div class="bg-gray rounded-lg p-2 text-center h-full">
         <h4>{props.domain}</h4>
@@ -30,7 +30,6 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         technologies="Next.js, Tailwind CSS, Directus, MeiliSearch"
         from="#1dbde6"
         to="#f1515e"
-        matteo={true}
       />
       <Project
         link="https://www.ansmann.tech"
@@ -80,7 +79,6 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         technologies="Next.js, Tailwind CSS"
         from="#84ffc9"
         to="#eca0ff"
-        matteo={true}
       />
       <Project
         link="https://www.silas-schmitt.de"
@@ -88,7 +86,6 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         technologies="Next.js, Tailwind CSS, AWS SES"
         from="#fbd07c"
         to="#b5c6e0"
-        matteo={true}
       />
       <Project
         link="https://www.sfn-neumann.de"

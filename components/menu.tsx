@@ -7,7 +7,7 @@ const Menu = (data: { lang: State["lang"] }) => (
     <Language lang={data.lang} />
     <a
       href="/Lebenslauf.pdf"
-      class="h-4 w-4 bg-gray-dark rounded-xl p-0.5 cursor-pointer group"
+      class="h-4 w-4 bg-gray-dark rounded-xl p-0.5 cursor-pointer group transition-colors border-2 border-transparent hover:border-gray-light"
     >
       <img
         src="/vectors/cv.svg"

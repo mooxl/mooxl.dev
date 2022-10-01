@@ -81,7 +81,7 @@ const Contact = (data: { translation: Translation["contact"] }) => {
                 : (
                   <input
                     type="submit"
-                    className="rounded-xl px-5 py-1 bg-gray-dark text-gray-light cursor-pointer"
+                    className="rounded-xl px-5 py-1 bg-gray-dark text-gray-light cursor-pointer transition-colors border-2 border-transparent hover:border-gray-light"
                     value={data.translation.send}
                   />
                 )}
