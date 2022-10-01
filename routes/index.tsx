@@ -4,7 +4,7 @@ import Education from "../components/education.tsx";
 import Experience from "../components/experience.tsx";
 import Skills from "../components/skills.tsx";
 import Projects from "../components/projects.tsx";
-import Contact from "../components/contact.tsx";
+import Contact from "../islands/contact.tsx";
 import Footer from "../components/footer.tsx";
 
 import { State } from "../utils/types.ts";
@@ -18,32 +18,6 @@ export const handler: Handlers<any, State> = {
       lang: ctx.state.lang,
     });
   },
-  /*  async POST(req, ctx) {
-    try {
-      const form = await req.formData();
-      if (form.has("mail") && form.has("message")) {
-        await fetch("https://awsmailer.mediaatrium.de/send", {
-          method: "POST",
-          mode: "cors",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            username: Deno.env.get("username"),
-            key: Deno.env.get("key"),
-            from: Deno.env.get("from"),
-            to: Deno.env.get("to"),
-            subject: `Neue Nachricht von ${form.get("mail")}`,
-            content: form.get("message"),
-          }),
-        });
-        return ctx.render({ sent: true });
-      } else {
-        throw new Error();
-      }
-    } catch (e) {
-      console.log(e);
-      return ctx.render({ sent: false });
-    }
-  }, */
 };
 const Index = (
   { data }: PageProps<State>,
@@ -56,7 +30,7 @@ const Index = (
       <Experience translation={data.translation.experience} />
       <Skills translation={data.translation.skills} />
       <Projects translation={data.translation.projects} />
-      {/*<Contact sent={data?.sent} />*/}
+      <Contact />
       <Footer translation={data.translation.footer} />
     </div>
   );
