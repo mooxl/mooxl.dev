@@ -30,7 +30,7 @@ const Index = (
       <Experience translation={data.translation.experience} />
       <Skills translation={data.translation.skills} />
       <Projects translation={data.translation.projects} />
-      <Contact />
+      <Contact translation={data.translation.contact} />
       <Footer translation={data.translation.footer} />
     </div>
   );

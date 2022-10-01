@@ -1,12 +1,13 @@
-import { useEffect, useState } from "preact/hooks";
+import { useState } from "preact/hooks";
+import { Translation } from "../utils/types.ts";
 
-const Contact = () => {
+const Contact = (data: { translation: Translation["contact"] }) => {
   const [status, setStatus] = useState<"sending" | "sent" | "failed">();
   const [form, setForm] = useState({
     mail: "",
     message: "",
   });
-
+  console.log(data.translation);
   const submit = async (event: Event) => {
     event.preventDefault();
     try {
@@ -26,43 +27,17 @@ const Contact = () => {
   };
 
   return (
-    /*  async POST(req, ctx) {
-    try {
-      const form = await req.formData();
-      if (form.has("mail") && form.has("message")) {
-        await fetch("https://awsmailer.mediaatrium.de/send", {
-          method: "POST",
-          mode: "cors",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            username: Deno.env.get("username"),
-            key: Deno.env.get("key"),
-            from: Deno.env.get("from"),
-            to: Deno.env.get("to"),
-            subject: `Neue Nachricht von ${form.get("mail")}`,
-            content: form.get("message"),
-          }),
-        });
-        return ctx.render({ sent: true });
-      } else {
-        throw new Error();
-      }
-    } catch (e) {
-      console.log(e);
-      return ctx.render({ sent: false });
-    }
-  }, */
     <>
-      <h3>Kontakt</h3>
+      <h3>{data.translation.title}</h3>
       <div>
         {status === "sent"
-          ? <h3>Vielen Dank für deine Nachricht!</h3>
+          ? <h3>{data.translation.sent}</h3>
           : (
             <form onSubmit={submit} className="space-y-3">
-              {status === "failed" && <h3>Etwas ist schief gelaufen :(</h3>}
+              {status === "failed" && <h3>{data.translation.failed}</h3>}
               <div className="space-y-1">
                 <label for="mail">
-                  E-Mail
+                  {data.translation.mail}
                 </label>
 
                 <input
@@ -82,7 +57,7 @@ const Contact = () => {
               </div>
               <div className="space-y-1">
                 <label for="message">
-                  Nachricht
+                  {data.translation.message}
                 </label>
                 <textarea
                   id="message"
@@ -108,7 +83,7 @@ const Contact = () => {
                   <input
                     type="submit"
                     className="rounded-xl px-5 py-1 bg-gray-dark text-gray-light cursor-pointer"
-                    value="Absenden"
+                    value={data.translation.send}
                   />
                 )}
             </form>

@@ -118,6 +118,14 @@
   "projects": {
     "title": "Projects"
   },
+  "contact": {
+    "title": "Contact",
+    "mail": "E-Mail",
+    "message": "Message",
+    "send": "Send",
+    "sent": "Thanks for the message!",
+    "failed": "Something went wrong :("
+  },
   "footer": {
     "imprint": "imprint",
     "privacy": "privacy policy"
