@@ -62,7 +62,7 @@ const Contact = () => {
               {status === "failed" && <h3>Etwas ist schief gelaufen :(</h3>}
               <div className="space-y-1">
                 <label for="mail">
-                  E-Mail {form.mail.error && `- ${form.mail.error}`}
+                  E-Mail
                 </label>
 
                 <input
@@ -98,11 +98,19 @@ const Contact = () => {
                 >
                 </textarea>
               </div>
-              <input
-                type="submit"
-                className="rounded-xl px-5 py-1 bg-gray-dark text-gray-light cursor-pointer"
-                value="Absenden"
-              />
+              {status === "sending"
+                ? (
+                  <div class="h-2 w-10 flex items-center">
+                    <img src="/vectors/loader.svg" class="w-full" />
+                  </div>
+                )
+                : (
+                  <input
+                    type="submit"
+                    className="rounded-xl px-5 py-1 bg-gray-dark text-gray-light cursor-pointer"
+                    value="Absenden"
+                  />
+                )}
             </form>
           )}
       </div>
