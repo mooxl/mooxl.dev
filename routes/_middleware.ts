@@ -3,6 +3,7 @@ import { MiddlewareHandlerContext } from "$fresh/server.ts";
 import de from "../utils/i18n/de.json" assert { type: "json" };
 import en from "../utils/i18n/en.json" assert { type: "json" };
 
+import SecurityHeaders from "../utils/securityHeaders.ts";
 import { State } from "../utils/types.ts";
 
 export const handler = [
@@ -24,5 +25,15 @@ export const handler = [
       res.headers.set("Set-Cookie", `lang=${ctx.state.lang}`);
       return res;
     }
+  },
+  async function setSecurityHeaders(
+    _req: Request,
+    ctx: MiddlewareHandlerContext<State>,
+  ) {
+    const resp = await ctx.next();
+    SecurityHeaders.map((header) => {
+      resp.headers.set(header.key, header.value);
+    });
+    return resp;
   },
 ];
