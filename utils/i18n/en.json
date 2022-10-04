@@ -31,7 +31,7 @@
     "jobs": [
       {
         "name": "Ambient",
-        "role": "Frontend Web Developer - Working student",
+        "role": "Full Stack Web Developer - Working student",
         "date": "since April 2022, Cologne",
         "tasks": [
           "Implementation of various features in different code bases.",
@@ -77,7 +77,7 @@
         "skills": ["JavaScript", "TypeScript", "Golang", "C++", "Python"]
       },
       {
-        "title": "Librarys and Frameworks",
+        "title": "Libraries and Frameworks",
         "skills": [
           "React",
           "Next.js",
