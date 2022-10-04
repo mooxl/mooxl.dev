@@ -6,13 +6,14 @@ const Menu = (data: { lang: State["lang"] }) => (
       ">
     <Language lang={data.lang} />
     <a
-      href="/Lebenslauf.pdf"
+      href={`/cv-${data.lang}.pdf`}
+      target="_blank"
       class="h-4 w-4 bg-gray-dark rounded-xl p-0.5 cursor-pointer group transition-colors border-2 border-transparent hover:border-gray-light"
     >
       <img
         src="/vectors/cv.svg"
         class="
-          w-full h-full fill-gray-light group-hover:fill-white transition-colors duration-150"
+          w-full h-full transition-colors duration-150"
         alt="CV"
       />
     </a>
