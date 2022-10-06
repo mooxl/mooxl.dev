@@ -15,18 +15,15 @@ export const handler: Handlers = {
         },
       },
     });
-    const body: { mail: string; message: string } | undefined = JSON.parse(
-      new TextDecoder().decode(
-        (await request.body?.getReader().read()).value,
-      ),
-    );
-    if (body) {
+    const payload: { mail: string; message: string } | undefined = await request
+      .json();
+    if (payload) {
       try {
         await client.send({
           from: Deno.env.get("from")!,
           to: Deno.env.get("to")!,
-          subject: `Neue Nachricht von ${body.mail}`,
-          content: body.message,
+          subject: `Neue Nachricht von ${payload.mail}`,
+          content: payload.message,
         });
         await client.close();
         return new Response("", { status: Status.OK });
