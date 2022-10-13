@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useCallback, useState } from "preact/hooks";
 import { Translation } from "../utils/types.ts";
 
 const Contact = (data: { translation: Translation["contact"] }) => {
@@ -7,7 +7,7 @@ const Contact = (data: { translation: Translation["contact"] }) => {
     mail: "",
     message: "",
   });
-  const submit = async (event: Event) => {
+  const submit = useCallback(async (event: Event) => {
     event.preventDefault();
     try {
       setStatus("sending");
@@ -23,7 +23,7 @@ const Contact = (data: { translation: Translation["contact"] }) => {
     } catch (e) {
       setStatus("failed");
     }
-  };
+  }, [form]);
 
   return (
     <>
