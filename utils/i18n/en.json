@@ -30,9 +30,17 @@
     "title": "Experience",
     "jobs": [
       {
+        "name": "ShiftDigital",
+        "role": "Frontend Web Developer - Werksstudent",
+        "date": "since December 2022, Bochum",
+        "tasks": [
+          "Further development of the Shift Studio frontend based on React"
+        ]
+      },
+      {
         "name": "Ambient",
         "role": "Full Stack Web Developer - Working student",
-        "date": "since April 2022, Cologne",
+        "date": "April 2022 - December 2022, Cologne",
         "tasks": [
           "Implementation of various features in different code bases.",
           "Fixing bugs on varied services"

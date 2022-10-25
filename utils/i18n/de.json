@@ -30,16 +30,24 @@
     "title": "Erfahrung",
     "jobs": [
       {
+        "name": "ShiftDigital",
+        "role": "Full Stack Web Developer - Werksstudent",
+        "date": "seit Dezember 2022, Bochum",
+        "tasks": [
+          "Weiterentwicklung des Frontends von Shift Studio basierend auf React"
+        ]
+      },
+      {
         "name": "Ambient",
         "role": "Full Stack Web Developer - Werksstudent",
-        "date": "seit April 2022, Köln",
+        "date": "April 2022 - Dezember 2022, Köln",
         "tasks": [
           "Implementierung diverser Features in unterschiedlichen Codebasen",
           "Beheben von Bugs an abwechslungsreichen Diensten"
         ]
       },
       {
-        "name": "Mediaatrium GmbH",
+        "name": "Mediaatrium",
         "role": "Full Stack Developer",
         "date": "Februar 2021 - März 2022, Laufach",
         "tasks": [
