@@ -1,6 +1,6 @@
 {
   "me": {
-    "text": "Gude! I was born on 29.01.1996 in Aschaffenburg and in the process of making the internet more beautiful and faster.\nLiving in Cologne-Ehrenfeld, studying again in Aachen and currently working at Ambient."
+    "text": "Gude! I was born on 29.01.1996 in Aschaffenburg and I am in the process of making the web more beautiful and faster.\nLiving in Cologne-Ehrenfeld, studying again in Aachen and currently working at ShiftDigital."
   },
   "education": {
     "title": "Education",
@@ -31,7 +31,7 @@
     "jobs": [
       {
         "name": "ShiftDigital",
-        "role": "Frontend Web Developer - Werksstudent",
+        "role": "Frontend Web Developer - Working student",
         "date": "since December 2022, Bochum",
         "tasks": [
           "Further development of the Shift Studio frontend based on React"
