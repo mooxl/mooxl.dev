@@ -34,7 +34,8 @@
         "role": "Full Stack Web Developer - Werksstudent",
         "date": "seit Dezember 2022, Bochum",
         "tasks": [
-          "Weiterentwicklung des Frontends von Shift Studio basierend auf React"
+          "Weiterentwicklung des Frontends von Shift Studio basierend auf React",
+          "Konzeption und Umsetzung eines Admintools zur Überwachung der Instanzen und Statistiken von Shift Studio mittels Remix und Deno"
         ]
       },
       {
