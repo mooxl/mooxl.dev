@@ -8,6 +8,8 @@ const Footer = (data: { translation: Translation["footer"] }) => (
     <div class="flex flex-col items-center gap-2">
       <a
         class="relative w-4"
+        width="16"
+        height="16"
         href="https://github.com/mooxl"
         rel="noopener"
         target="_blank"
