@@ -12,10 +12,16 @@ const Footer = (data: { translation: Translation["footer"] }) => (
         rel="noopener"
         target="_blank"
       >
-        <img class="w-full" src="vectors/github.svg" alt="Logo von GitHub" />
+        <img
+          class="w-full"
+          loading="lazy"
+          src="vectors/github.svg"
+          alt="Logo von GitHub"
+        />
       </a>
       <a href="https://fresh.deno.dev" class="w-15">
         <img
+          loading="lazy"
           width="197"
           height="37"
           src="https://fresh.deno.dev/fresh-badge-dark.svg"
