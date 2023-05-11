@@ -12,6 +12,8 @@ const Menu = (data: { lang: State["lang"] }) => (
     >
       <img
         src="/vectors/cv.svg"
+        width="16"
+        height="16"
         class="
           w-full h-full transition-colors duration-150"
         alt="CV"
