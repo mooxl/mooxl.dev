@@ -1,4 +1,3 @@
-import { useEffect, useState } from "preact/hooks";
 import { State } from "../utils/types.ts";
 
 const Language = (data: { lang: State["lang"] }) => {
