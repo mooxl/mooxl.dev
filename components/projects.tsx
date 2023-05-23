@@ -32,9 +32,9 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         to="#f1515e"
       />
       <Project
-        link="https://www.ansmann.tech"
-        domain="ansmann.tech"
-        technologies="Next.js, Tailwind CSS, AWS SES"
+        link="https://www.main-ausdauershop.de/"
+        domain="main-ausdauershop.de"
+        technologies="Astro, Framer Motion"
         from="#00ff87"
         to="#60efff"
       />
@@ -102,9 +102,9 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         to="#103783"
       />
       <Project
-        link="https://www.freakademy.net"
-        domain="freakademy.net"
-        technologies="Next.js, Framer Motion"
+        link="https://www.ansmann.tech"
+        domain="ansmann.tech"
+        technologies="Next.js, Tailwind CSS, AWS SES"
         from="#e9b7ce"
         to="#d3f3f1"
       />
