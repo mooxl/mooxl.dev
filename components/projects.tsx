@@ -27,7 +27,7 @@ const Projects = (data: { translation: Translation["projects"] }) => (
     <h3>{data.translation.title}</h3>
     <div class="grid grid-cols-2 sm:grid-cols-1 gap-3">
       <Project
-        link="https://www.raycast.com/mooxl"
+        link="https://github.com/mooxl/astroad"
         domain="Astroad"
         type="Template"
         technologies="Astro, PayloadCMS, Tailwind CSS, Docker"
@@ -75,7 +75,7 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         to="#fbe9d7"
       />
       <Project
-        link="https://www.mediaatrium.de"
+        link="https://old.mediaatrium.de"
         domain="mediaatrium.de"
         type="Static Website"
         technologies="Next.js"
