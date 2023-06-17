@@ -3,6 +3,7 @@ export default {
   theme: {
     fontSize: {
       html: "62.5%",
+      xs: "1.4rem",
       sm: "1.6rem",
       md: "2.1rem",
       lg: "3rem",
