@@ -36,7 +36,7 @@ await start(manifest, {
           h2: apply`text-lg font-bold text-gray-light sm:text-md`,
           h3:
             apply`text-right uppercase text-md font-bold text-gray-light lg:mt-6 lg:mb-2 md:mt-4 lg:text-left`,
-          h4: apply`text-white font-bold text-md  mb-1.5 lg:mb-1 md:mb-0.8`,
+          h4: apply`text-white font-bold text-md  mb-1 lg:mb-1 md:mb-0.8`,
           h5: apply`text-gray-light leading-snug`,
           ul: apply`list-disc list-inside`,
           li: apply`text-gray-light leading-normal`,
