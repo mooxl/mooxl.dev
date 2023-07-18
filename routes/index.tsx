@@ -9,29 +9,21 @@ import Footer from "../components/footer.tsx";
 
 import { State } from "../utils/types.ts";
 
-import { Handlers, PageProps } from "$fresh/server.ts";
+import { RouteContext } from "$fresh/server.ts";
 
-export const handler: Handlers<any, State> = {
-  GET(_req, ctx) {
-    return ctx.render({
-      translation: ctx.state.translation,
-      lang: ctx.state.lang,
-    });
-  },
-};
-const Index = (
-  { data }: PageProps<State>,
-) => {
+const Index = (ctx: RouteContext) => {
+  const lang = ctx.state.lang as State["lang"];
+  const translation = ctx.state.translation as State["translation"];
   return (
     <div class="grid grid-cols-desktop gap-x-5 lg:grid-cols-1  gap-y-10 lg:gap-y-0">
-      <Menu lang={data.lang} />
-      <Me translation={data.translation.me} />
-      <Education translation={data.translation.education} />
-      <Experience translation={data.translation.experience} />
-      <Skills translation={data.translation.skills} />
-      <Projects translation={data.translation.projects} />
-      <Contact translation={data.translation.contact} />
-      <Footer translation={data.translation.footer} />
+      <Menu lang={lang} />
+      <Me translation={translation.me} />
+      <Education translation={translation.education} />
+      <Experience translation={translation.experience} />
+      <Skills translation={translation.skills} />
+      <Projects translation={translation.projects} />
+      <Contact translation={translation.contact} />
+      <Footer translation={translation.footer} />
     </div>
   );
 };
