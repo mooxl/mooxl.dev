@@ -131,6 +131,14 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         to="#07f49e"
       />
       <Project
+        link="https://elektrotechnik-studieren.info/"
+        domain="elektrotechnik-studieren.info"
+        type="Dynamic Website"
+        technologies="Astroad"
+        from="#1dbde6"
+        to="#f1515e"
+      />
+      <Project
         link="https://www.silas-schmitt.de"
         domain="silas-schmitt.de"
         type="Static Website"
