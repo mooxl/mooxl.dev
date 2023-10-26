@@ -83,6 +83,14 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         to="#f8acff"
       />
       <Project
+        link="https://markt-goldbach.de"
+        domain="markt-goldbach.de"
+        type="Static Website"
+        technologies="Astro, Svelte, PayloadCMS, Tailwind CSS"
+        from="#fbd07c"
+        to="#b5c6e0"
+      />
+      <Project
         link="https://www.zahnarzt-herti.ch"
         domain="zahnarzt-herti.ch"
         type="Static Website"
