@@ -86,7 +86,7 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         link="https://markt-goldbach.de"
         domain="markt-goldbach.de"
         type="Static Website"
-        technologies="Astro, Svelte, PayloadCMS, Tailwind CSS"
+        technologies="Astroad, Svelte"
         from="#fbd07c"
         to="#b5c6e0"
       />
