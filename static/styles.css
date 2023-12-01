@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Plex";
+  font-display: swap;
+  src: url(/fonts/Plex-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Plex";
+  font-weight: bold;
+  font-display: swap;
+  src: url(/fonts/Plex-Bold.woff2) format("woff2");
+}
+
+@layer base {
+  html {
+    @apply text-html bg-gray;
+  }
+  body {
+    @apply text-sm text-white font-plex leading-none tracking-wide;
+  }
+  h1 {
+    @apply text-xl leading-none font-bold sm:text-lg;
+  }
+  h2 {
+    @apply text-lg font-bold text-gray-light sm:text-md;
+  }
+  h3 {
+    @apply text-right uppercase text-md font-bold text-gray-light lg:mt-6 lg:mb-2 md:mt-4 lg:text-left;
+  }
+  h4 {
+    @apply text-white font-bold text-md  mb-1 lg:mb-1 md:mb-0.8;
+  }
+  h5 {
+    @apply text-gray-light leading-snug;
+  }
+  ul {
+    @apply list-disc list-inside;
+  }
+  li {
+    @apply text-gray-light leading-normal;
+  }
+  a {
+    @apply text-gray-light leading-normal;
+  }
+  p {
+    @apply text-gray-light leading-snug;
+  }
+  label {
+    @apply text-gray-light leading-snug;
+  }
+}

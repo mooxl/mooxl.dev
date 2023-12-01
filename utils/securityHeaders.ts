@@ -4,7 +4,7 @@ const contentSecurityPolicy = `
     font-src 'self'; 
     img-src 'self' https://fresh.deno.dev; 
     script-src 'self' 'unsafe-inline'; 
-    style-src 'unsafe-inline' 
+    style-src 'self' 
 `;
 
 const SecurityHeaders = [
