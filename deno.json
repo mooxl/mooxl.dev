@@ -1,20 +1,38 @@
 {
+  "lock": false,
   "tasks": {
-    "start": "deno run -A --watch=static/,routes/ dev.ts"
+    "check": "deno fmt --check && deno lint && deno check **/*.ts && deno check **/*.tsx",
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "build": "deno run -A dev.ts build",
+    "preview": "deno run -A main.ts",
+    "update": "deno run -A -r https://fresh.deno.dev/update ."
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "fresh",
+        "recommended"
+      ]
+    }
+  },
+  "exclude": [
+    "**/_fresh/*"
+  ],
+  "imports": {
+    "$fresh/": "https://deno.land/x/fresh@1.6.0/",
+    "preact": "https://esm.sh/preact@10.19.2",
+    "preact/": "https://esm.sh/preact@10.19.2/",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
+    "tailwindcss": "npm:tailwindcss@3.3.5",
+    "tailwindcss/": "npm:/tailwindcss@3.3.5/",
+    "tailwindcss/plugin": "npm:/tailwindcss@3.3.5/plugin.js",
+    "$std/": "https://deno.land/std@0.208.0/",
+    "smtp": "https://deno.land/x/denomailer@1.3.0/mod.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
-  "imports": {
-    "$fresh/": "https://deno.land/x/fresh@1.3.0/",
-    "preact": "https://esm.sh/preact@10.15.1",
-    "preact/": "https://esm.sh/preact@10.15.1/",
-    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.1.0",
-    "@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
-    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
-    "twind": "https://esm.sh/twind@0.16.19",
-    "twind/": "https://esm.sh/twind@0.16.19/",
-    "smtp": "https://deno.land/x/denomailer@1.3.0/mod.ts"
-  }
+  "nodeModulesDir": true
 }
