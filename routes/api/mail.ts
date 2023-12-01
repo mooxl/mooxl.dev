@@ -1,4 +1,4 @@
-import { Handlers, Status } from "$fresh/server.ts";
+import { Handlers, STATUS_CODE } from "$fresh/server.ts";
 import { SMTPClient } from "smtp";
 import { generate } from "../../utils/generate.ts";
 
@@ -26,11 +26,11 @@ export const handler: Handlers = {
           content: payload.message,
         });
         await client.close();
-        return new Response("", { status: Status.OK });
+        return new Response("", { status: STATUS_CODE.OK });
       } catch (_) {
-        return new Response("", { status: Status.BadRequest });
+        return new Response("", { status: STATUS_CODE.BadRequest });
       }
     }
-    return new Response("", { status: Status.NoContent });
+    return new Response("", { status: STATUS_CODE.NoContent });
   },
 };
