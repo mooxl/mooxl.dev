@@ -2,7 +2,7 @@ import { PageProps } from "$fresh/server.ts";
 
 export default function App({ Component }: PageProps) {
   return (
-    <html>
+    <html lang="de">
       <head>
         <title>Max Schmidt - Full Stack Web Developer</title>
         <meta
