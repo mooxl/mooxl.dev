@@ -32,50 +32,66 @@
     "jobs": [
       {
         "name": "ShiftDigital",
-        "role": "Full Stack Web Developer - Werksstudent",
-        "date": "seit Dezember 2022, Bochum",
-        "tasks": [
-          "Weiterentwicklung des Frontends von Shift Studio basierend auf React",
-          "Konzeption und Umsetzung eines Admintools zur Überwachung der Instanzen und Statistiken von Shift Studio mittels Remix und Deno"
-        ]
+        "date": "Dezember 2022 - Dezember 2023, Bochum",
+        "stations": [{
+          "role": "Web and Cloud Engineer",
+          "tasks": [
+            "Grundlagen schaffen und strukturieren eines effizienten OpenGov-Ticketing-Systems",
+            "Erstellen und Optimieren eines skalierbaren Kubernetes-Clusters mit hoher Verfügbarkeit für unsere SaaS-Angebote"
+          ]
+        }, {
+          "role": "Full Stack Web Developer - Werksstudent - bis Dezember 2023",
+          "tasks": [
+            "Weiterentwicklung des Frontends von Shift Studio basierend auf React",
+            "Konzeption und Umsetzung eines Admintools zur Überwachung der Instanzen und Statistiken von Shift Studio mittels Remix und Deno"
+          ]
+        }]
       },
       {
         "name": "Ambient",
-        "role": "Full Stack Web Developer - Werksstudent",
         "date": "April 2022 - Dezember 2022, Köln",
-        "tasks": [
-          "Implementierung diverser Features in unterschiedlichen Codebasen",
-          "Beheben von Bugs an abwechslungsreichen Diensten"
-        ]
+        "stations": [{
+          "role": "Full Stack Web Developer - Werksstudent",
+          "tasks": [
+            "Implementierung diverser Features in unterschiedlichen Codebasen",
+            "Beheben von Bugs an abwechslungsreichen Diensten"
+          ]
+        }]
       },
       {
         "name": "Mediaatrium",
-        "role": "Full Stack Developer",
         "date": "Februar 2021 - März 2022, Laufach",
-        "tasks": [
-          "Front- und Backend-Entwicklung mittels TypeScript im Rahmen verschiedener Projekte",
-          "Überarbeitung der kompletten serverseitigen Infrastruktur via Docker",
-          "Optimierung interner technischer Prozesse"
-        ]
+        "stations": [{
+          "role": "Full Stack Developer",
+          "tasks": [
+            "Front- und Backend-Entwicklung mittels TypeScript im Rahmen verschiedener Projekte",
+            "Überarbeitung der kompletten serverseitigen Infrastruktur via Docker",
+            "Optimierung interner technischer Prozesse"
+          ]
+        }]
       },
       {
         "name": "Curly UG",
-        "role": "Mitgründer",
         "date": "Dezember 2019 - Februar 2021, Aachen",
-        "tasks": [
-          "Konzeption und teilweise Umsetzung einer sozialen Foodsharing-Plattform mit Golang und Flutter",
-          "Webentwicklung für eigene Website und verschiedene Kunden unter Becurly"
-        ]
+        "stations": [{
+          "role": "Mitgründer",
+          "tasks": [
+            "Konzeption und teilweise Umsetzung einer sozialen Foodsharing-Plattform mit Golang und Flutter",
+            "Webentwicklung für eigene Website und verschiedene Kunden unter Becurly"
+          ]
+        }]
       },
       {
         "name": "AStA FH Aachen",
-        "role": "Front- und Backend Web Developer - Werksstudent",
         "date": "November 2018 - Mai 2023, Aachen",
-        "tasks": [
-          "Entwicklung und Instandhaltung verschiedener Systeme in Node.js, Deno, Golang und Python",
-          "Konzeption und Umsetzung der Wohnbörse \"Zimmerfrei\" der Uni Bonn",
-          "Erweiterung der elektronischen Semesterticketrückerstattung"
-        ]
+        "stations": [{
+          "role": "Front- und Backend Web Developer - Werksstudent",
+          "tasks": [
+            "Entwicklung und Instandhaltung verschiedener Systeme in Node.js, Deno, Golang und Python",
+            "Konzeption und Umsetzung der Wohnbörse \"Zimmerfrei\" der Uni Bonn",
+            "Erweiterung der elektronischen Semesterticketrückerstattung"
+          ]
+        }]
       }
     ]
   },

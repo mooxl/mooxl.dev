@@ -32,50 +32,69 @@
     "jobs": [
       {
         "name": "ShiftDigital",
-        "role": "Frontend Web Developer - Working student",
         "date": "since December 2022, Bochum",
-        "tasks": [
-          "Further development of the Shift Studio frontend based on React",
-          "Design and implementation of an admin tool to monitor the instances and statistics of Shift Studio using Remix and Deno"
+        "stations": [
+          {
+            "role": "Web and Cloud Engineer",
+            "tasks": [
+              "Establishing and structuring an efficient OpenGov ticketing system",
+              "Creating and optimizing a scalable, high-availability Kubernetes cluster for our SaaS offerings"
+            ]
+          },
+          {
+            "role": "Frontend Web Developer - Working student - till December 2023",
+            "tasks": [
+              "Further development of the Shift Studio frontend based on React",
+              "Design and implementation of an admin tool to monitor the instances and statistics of Shift Studio using Remix and Deno"
+            ]
+          }
         ]
       },
       {
         "name": "Ambient",
-        "role": "Full Stack Web Developer - Working student",
         "date": "April 2022 - December 2022, Cologne",
-        "tasks": [
-          "Implementation of various features in different code bases.",
-          "Fixing bugs on varied services"
-        ]
+        "stations": [{
+          "role": "Full Stack Web Developer - Working student",
+          "tasks": [
+            "Implementation of various features in different code bases.",
+            "Fixing bugs on varied services"
+          ]
+        }]
       },
       {
         "name": "Mediaatrium",
-        "role": "Full Stack Developer",
         "date": "February 2021 - March 2022, Laufach",
-        "tasks": [
-          "Front- and backend development using TypeScript in the context of various projects",
-          "Revision of the complete server-side infrastructure via Docker",
-          "Optimisation of internal technical processes"
-        ]
+        "stations": [{
+          "role": "Full Stack Developer",
+          "tasks": [
+            "Front- and backend development using TypeScript in the context of various projects",
+            "Revision of the complete server-side infrastructure via Docker",
+            "Optimisation of internal technical processes"
+          ]
+        }]
       },
       {
         "name": "Curly UG",
-        "role": "Co-founder",
         "date": "December 2019 - February 2021, Aachen",
-        "tasks": [
-          "Conception and partial implementation of a social food sharing platform with Golang and Flutter",
-          "Web development for own our website and various clients under Becurly"
-        ]
+        "stations": [{
+          "role": "Co-founder",
+          "tasks": [
+            "Conception and partial implementation of a social food sharing platform with Golang and Flutter",
+            "Web development for own our website and various clients under Becurly"
+          ]
+        }]
       },
       {
         "name": "AStA FH Aachen",
-        "role": "Front- und Backend Web Developer - Werksstudent",
         "date": "November 2018 - May 2023, Aachen",
-        "tasks": [
-          "Development and maintenance of various systems in Node.js, Deno, Golang and Python",
-          "Conception and implementation of the housing exchange \"Zimmerfrei\" of the University of Bonn",
-          "Extension of the electronic semester ticket reimbursement"
-        ]
+        "stations": [{
+          "role": "Front- und Backend Web Developer - Werksstudent",
+          "tasks": [
+            "Development and maintenance of various systems in Node.js, Deno, Golang and Python",
+            "Conception and implementation of the housing exchange \"Zimmerfrei\" of the University of Bonn",
+            "Extension of the electronic semester ticket reimbursement"
+          ]
+        }]
       }
     ]
   },
