@@ -5,7 +5,7 @@ const Me = (data: { translation: Translation["me"] }) => (
     <div class="md:order-2">
       <h1>Max Schmidt</h1>
       <h2 class="my-1">
-        Full Stack Web Developer
+        Cloud and Web Engineer
       </h2>
       <p class="whitespace-pre-wrap">
         {data.translation.text}
