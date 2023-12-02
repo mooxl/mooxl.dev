@@ -34,7 +34,7 @@
         "name": "ShiftDigital",
         "date": "Dezember 2022 - Dezember 2023, Bochum",
         "stations": [{
-          "role": "Web and Cloud Engineer",
+          "role": "Cloud and Web Engineer",
           "tasks": [
             "Grundlagen schaffen und strukturieren eines effizienten OpenGov-Ticketing-Systems",
             "Erstellen und Optimieren eines skalierbaren Kubernetes-Clusters mit hoher Verfügbarkeit für unsere SaaS-Angebote"

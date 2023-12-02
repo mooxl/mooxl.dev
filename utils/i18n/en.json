@@ -35,7 +35,7 @@
         "date": "since December 2022, Bochum",
         "stations": [
           {
-            "role": "Web and Cloud Engineer",
+            "role": "Cloud and Web Engineer",
             "tasks": [
               "Establishing and structuring an efficient OpenGov ticketing system",
               "Creating and optimizing a scalable, high-availability Kubernetes cluster for our SaaS offerings"
