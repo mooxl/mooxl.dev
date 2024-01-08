@@ -7,14 +7,10 @@
     "preview": "deno run -A main.ts",
     "update": "deno run -A -r https://fresh.deno.dev/update ."
   },
-  "lint": {
-    "rules": {
-      "tags": ["fresh", "recommended"]
-    }
-  },
+  "lint": { "rules": { "tags": ["fresh", "recommended"] } },
   "exclude": ["**/_fresh/*"],
   "imports": {
-    "$fresh/": "https://deno.land/x/fresh@1.6.0/",
+    "$fresh/": "https://deno.land/x/fresh@1.6.1/",
     "preact": "https://esm.sh/preact@10.19.2",
     "preact/": "https://esm.sh/preact@10.19.2/",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
@@ -24,9 +20,6 @@
     "$std/": "https://deno.land/std@0.208.0/",
     "smtp": "https://deno.land/x/denomailer@1.3.0/mod.ts"
   },
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "preact"
-  },
+  "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
   "nodeModulesDir": true
 }
