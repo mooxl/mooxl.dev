@@ -7,8 +7,8 @@
     "milestones": [
       {
         "title": "FH Aachen | M. Eng. Information Systems Engineering",
-        "date": "since March 2022, Aachen",
-        "text": "Focus: Distributed Systems and Management"
+        "date": "March 2022 - March 2024, Aachen",
+        "text": "Master of Engineering\nFocus: Distributed Systems and Management"
       },
       {
         "title": "FH Aachen | B. Sc. Computer Science",
@@ -53,48 +53,56 @@
       {
         "name": "Ambient",
         "date": "April 2022 - December 2022, Cologne",
-        "stations": [{
-          "role": "Full Stack Web Developer - Working student",
-          "tasks": [
-            "Implementation of various features in different code bases.",
-            "Fixing bugs on varied services"
-          ]
-        }]
+        "stations": [
+          {
+            "role": "Full Stack Web Developer - Working student",
+            "tasks": [
+              "Implementation of various features in different code bases.",
+              "Fixing bugs on varied services"
+            ]
+          }
+        ]
       },
       {
         "name": "Mediaatrium",
         "date": "February 2021 - March 2022, Laufach",
-        "stations": [{
-          "role": "Full Stack Developer",
-          "tasks": [
-            "Front- and backend development using TypeScript in the context of various projects",
-            "Revision of the complete server-side infrastructure via Docker",
-            "Optimisation of internal technical processes"
-          ]
-        }]
+        "stations": [
+          {
+            "role": "Full Stack Developer",
+            "tasks": [
+              "Front- and backend development using TypeScript in the context of various projects",
+              "Revision of the complete server-side infrastructure via Docker",
+              "Optimisation of internal technical processes"
+            ]
+          }
+        ]
       },
       {
         "name": "Curly UG",
         "date": "December 2019 - February 2021, Aachen",
-        "stations": [{
-          "role": "Co-founder",
-          "tasks": [
-            "Conception and partial implementation of a social food sharing platform with Golang and Flutter",
-            "Web development for own our website and various clients under Becurly"
-          ]
-        }]
+        "stations": [
+          {
+            "role": "Co-founder",
+            "tasks": [
+              "Conception and partial implementation of a social food sharing platform with Golang and Flutter",
+              "Web development for own our website and various clients under Becurly"
+            ]
+          }
+        ]
       },
       {
         "name": "AStA FH Aachen",
         "date": "November 2018 - May 2023, Aachen",
-        "stations": [{
-          "role": "Front- und Backend Web Developer - Werksstudent",
-          "tasks": [
-            "Development and maintenance of various systems in Node.js, Deno, Golang and Python",
-            "Conception and implementation of the housing exchange \"Zimmerfrei\" of the University of Bonn",
-            "Extension of the electronic semester ticket reimbursement"
-          ]
-        }]
+        "stations": [
+          {
+            "role": "Front- und Backend Web Developer - Werksstudent",
+            "tasks": [
+              "Development and maintenance of various systems in Node.js, Deno, Golang and Python",
+              "Conception and implementation of the housing exchange \"Zimmerfrei\" of the University of Bonn",
+              "Extension of the electronic semester ticket reimbursement"
+            ]
+          }
+        ]
       }
     ]
   },
