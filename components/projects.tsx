@@ -135,8 +135,8 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         domain="mr-werk-iserlohn.de"
         type="Static Website"
         technologies="Nuxt.js, SCSS"
-        from="#42047e"
-        to="#07f49e"
+        from="#f6d5f7"
+        to="#fbe9d7"
       />
       {/* <Project
         link="https://elektrotechnik-studieren.info/"
