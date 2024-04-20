@@ -58,7 +58,7 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         from="#00ff87"
         to="#60efff"
       />
-      <Project
+      {/* <Project
         link="https://www.zimmerfrei-bonn.de"
         domain="zimmerfrei-bonn.de"
         type="Webapp"
@@ -73,7 +73,7 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         technologies="Nuxt.js, Strapi, Snipcart"
         from="#f6d5f7"
         to="#fbe9d7"
-      />
+      /> */}
       <Project
         link="https://old.mediaatrium.de"
         domain="mediaatrium.de"
@@ -138,14 +138,14 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         from="#42047e"
         to="#07f49e"
       />
-      <Project
+      {/* <Project
         link="https://elektrotechnik-studieren.info/"
         domain="elektrotechnik-studieren.info"
         type="Dynamic Website"
         technologies="Astroad"
         from="#1dbde6"
         to="#f1515e"
-      />
+      /> */}
       <Project
         link="https://www.silas-schmitt.de"
         domain="silas-schmitt.de"
@@ -154,14 +154,14 @@ const Projects = (data: { translation: Translation["projects"] }) => (
         from="#fbd07c"
         to="#b5c6e0"
       />
-      <Project
+      {/* <Project
         link="https://www.sixthreeway.de"
         domain="sixthreeway.de"
         type="Static Website"
         technologies="Next.js, Strapi"
         from="#f5e6ad"
         to="#f13c77"
-      />
+      /> */}
     </div>
   </>
 );
