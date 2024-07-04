@@ -1,175 +1,175 @@
 {
-  "me": {
-    "text": "Gude! Ich bin am 29.01.1996 in Aschaffenburg geboren und bin dabei, das Internet schöner und schneller zu machen.\nLebe in Köln-Ehrenfeld, studiere wieder in Aachen und arbeite momentan bei ShiftDigital."
-  },
-  "education": {
-    "title": "Ausbildung",
-    "milestones": [
-      {
-        "title": "FH Aachen | M. Eng. Information Systems Engineering",
-        "date": "März 2022 - März 2024",
-        "text": "Master of Engineering\nSchwerpunkt: Verteilte Systeme und Management"
-      },
-      {
-        "title": "FH Aachen | B. Sc. Informatik",
-        "date": "September 2017 - Februar 2021",
-        "text": "Bachelor of Science\nSchwerpunkt: Software Engineering"
-      },
-      {
-        "title": "FOSBOS Aschaffenburg",
-        "date": "2012-2015",
-        "text": "Fachabitur\nSchwerpunkte: Technologie, Mathematik und Naturwissenschaften"
-      },
-      {
-        "title": "Realschule Bessenbach",
-        "date": "2008-2012",
-        "text": "Mittlere Reife\nSchwerpunkte: Mathematik und Naturwissenschaft"
-      }
-    ]
-  },
-  "experience": {
-    "title": "Erfahrung",
-    "jobs": [
-      {
-        "name": "ShiftDigital",
-        "date": "seit Dezember 2022, Bochum",
-        "stations": [
-          {
-            "role": "Cloud and Web Engineer",
-            "tasks": [
-              "Grundlagen schaffen und strukturieren eines effizienten OpenGov-Ticketing-Systems",
-              "Erstellen und Optimieren eines skalierbaren Kubernetes-Clusters mit hoher Verfügbarkeit für unsere SaaS-Angebote"
-            ]
-          },
-          {
-            "role": "Full Stack Web Developer - Werksstudent - bis Dezember 2023",
-            "tasks": [
-              "Weiterentwicklung des Frontends von Shift Studio basierend auf React",
-              "Konzeption und Umsetzung eines Admintools zur Überwachung der Instanzen und Statistiken von Shift Studio mittels Remix und Deno"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Ambient",
-        "date": "April 2022 - Dezember 2022, Köln",
-        "stations": [
-          {
-            "role": "Full Stack Web Developer - Werksstudent",
-            "tasks": [
-              "Implementierung diverser Features in unterschiedlichen Codebasen",
-              "Beheben von Bugs an abwechslungsreichen Diensten"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Mediaatrium",
-        "date": "Februar 2021 - März 2022, Laufach",
-        "stations": [
-          {
-            "role": "Full Stack Developer",
-            "tasks": [
-              "Front- und Backend-Entwicklung mittels TypeScript im Rahmen verschiedener Projekte",
-              "Überarbeitung der kompletten serverseitigen Infrastruktur via Docker",
-              "Optimierung interner technischer Prozesse"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Curly UG",
-        "date": "Dezember 2019 - Februar 2021, Aachen",
-        "stations": [
-          {
-            "role": "Mitgründer",
-            "tasks": [
-              "Konzeption und teilweise Umsetzung einer sozialen Foodsharing-Plattform mit Golang und Flutter",
-              "Webentwicklung für eigene Website und verschiedene Kunden unter Becurly"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "AStA FH Aachen",
-        "date": "November 2018 - Mai 2023, Aachen",
-        "stations": [
-          {
-            "role": "Front- und Backend Web Developer - Werksstudent",
-            "tasks": [
-              "Entwicklung und Instandhaltung verschiedener Systeme in Node.js, Deno, Golang und Python",
-              "Konzeption und Umsetzung der Wohnbörse \"Zimmerfrei\" der Uni Bonn",
-              "Erweiterung der elektronischen Semesterticketrückerstattung"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "skills": {
-    "title": "Skills",
-    "sections": [
-      {
-        "title": "Programmiersprachen",
-        "skills": ["JavaScript", "TypeScript", "Golang", "C++", "Python"]
-      },
-      {
-        "title": "Bibliotheken und Frameworks",
-        "skills": [
-          "React",
-          "Vue",
-          "Svelte",
-          "Solid",
-          "Remix",
-          "Next.js",
-          "Nuxt.js",
-          "Sveltekit",
-          "Node",
-          "Deno",
-          "Fastify",
-          "Nest.js",
-          "Oak",
-          "Fresh",
-          "Astro",
-          "Three.js",
-          "Framer Motion",
-          "Tailwind CSS"
-        ]
-      },
-      {
-        "title": "Weitere Kenntnisse",
-        "skills": [
-          "Linux",
-          "Docker",
-          "Kubernetes",
-          "Traefik",
-          "Payloadcms",
-          "Directus",
-          "Strapi",
-          "Git",
-          "HTML",
-          "SCSS",
-          "SQL",
-          "NoSQL",
-          "Deutsch",
-          "Englisch"
-        ]
-      }
-    ]
-  },
-  "projects": {
-    "title": "Projekte"
-  },
-  "contact": {
-    "title": "Kontakt",
-    "mail": "E-Mail",
-    "message": "Nachricht",
-    "send": "Absenden",
-    "sent": "Vielen Dank für deine Nachricht!",
-    "failed": "Etwas ist schief gelaufen :("
-  },
-  "footer": {
-    "imprint": "Impressum",
-    "privacy": "Datenschutz"
-  }
+	"me": {
+		"text": "Gude! Ich bin am 29.01.1996 in Aschaffenburg geboren und bin dabei, das Internet schöner und schneller zu machen.\nLebe in Köln-Ehrenfeld, studiere wieder in Aachen und arbeite momentan bei ShiftDigital."
+	},
+	"education": {
+		"title": "Ausbildung",
+		"milestones": [
+			{
+				"title": "FH Aachen | M. Eng. Information Systems Engineering",
+				"date": "März 2022 - März 2024",
+				"text": "Master of Engineering\nSchwerpunkt: Verteilte Systeme und Management"
+			},
+			{
+				"title": "FH Aachen | B. Sc. Informatik",
+				"date": "September 2017 - Februar 2021",
+				"text": "Bachelor of Science\nSchwerpunkt: Software Engineering"
+			},
+			{
+				"title": "FOSBOS Aschaffenburg",
+				"date": "2012-2015",
+				"text": "Fachabitur\nSchwerpunkte: Technologie, Mathematik und Naturwissenschaften"
+			},
+			{
+				"title": "Realschule Bessenbach",
+				"date": "2008-2012",
+				"text": "Mittlere Reife\nSchwerpunkte: Mathematik und Naturwissenschaft"
+			}
+		]
+	},
+	"experience": {
+		"title": "Erfahrung",
+		"jobs": [
+			{
+				"name": "ShiftDigital",
+				"date": "seit Dezember 2022, Bochum",
+				"stations": [
+					{
+						"role": "Cloud and Web Engineer",
+						"tasks": [
+							"Grundlagen schaffen und strukturieren eines effizienten OpenGov-Ticketing-Systems",
+							"Erstellen und Optimieren eines skalierbaren Kubernetes-Clusters mit hoher Verfügbarkeit für unsere SaaS-Angebote"
+						]
+					},
+					{
+						"role": "Full Stack Web Developer - Werksstudent - bis Dezember 2023",
+						"tasks": [
+							"Weiterentwicklung des Frontends von Shift Studio basierend auf React",
+							"Konzeption und Umsetzung eines Admintools zur Überwachung der Instanzen und Statistiken von Shift Studio mittels Remix und Deno"
+						]
+					}
+				]
+			},
+			{
+				"name": "Ambient",
+				"date": "April 2022 - Dezember 2022, Köln",
+				"stations": [
+					{
+						"role": "Full Stack Web Developer - Werksstudent",
+						"tasks": [
+							"Implementierung diverser Features in unterschiedlichen Codebasen",
+							"Beheben von Bugs an abwechslungsreichen Diensten"
+						]
+					}
+				]
+			},
+			{
+				"name": "Mediaatrium",
+				"date": "Februar 2021 - März 2022, Laufach",
+				"stations": [
+					{
+						"role": "Full Stack Developer",
+						"tasks": [
+							"Front- und Backend-Entwicklung mittels TypeScript im Rahmen verschiedener Projekte",
+							"Überarbeitung der kompletten serverseitigen Infrastruktur via Docker",
+							"Optimierung interner technischer Prozesse"
+						]
+					}
+				]
+			},
+			{
+				"name": "Curly UG",
+				"date": "Dezember 2019 - Februar 2021, Aachen",
+				"stations": [
+					{
+						"role": "Mitgründer",
+						"tasks": [
+							"Konzeption und teilweise Umsetzung einer sozialen Foodsharing-Plattform mit Golang und Flutter",
+							"Webentwicklung für eigene Website und verschiedene Kunden unter Becurly"
+						]
+					}
+				]
+			},
+			{
+				"name": "AStA FH Aachen",
+				"date": "November 2018 - Mai 2023, Aachen",
+				"stations": [
+					{
+						"role": "Front- und Backend Web Developer - Werksstudent",
+						"tasks": [
+							"Entwicklung und Instandhaltung verschiedener Systeme in Node.js, Deno, Golang und Python",
+							"Konzeption und Umsetzung der Wohnbörse \"Zimmerfrei\" der Uni Bonn",
+							"Erweiterung der elektronischen Semesterticketrückerstattung"
+						]
+					}
+				]
+			}
+		]
+	},
+	"skills": {
+		"title": "Skills",
+		"sections": [
+			{
+				"title": "Programmiersprachen",
+				"skills": ["JavaScript", "TypeScript", "Golang", "C++", "Python"]
+			},
+			{
+				"title": "Bibliotheken und Frameworks",
+				"skills": [
+					"React",
+					"Vue",
+					"Svelte",
+					"Solid",
+					"Remix",
+					"Next.js",
+					"Nuxt.js",
+					"Sveltekit",
+					"Node",
+					"Deno",
+					"Fastify",
+					"Nest.js",
+					"Oak",
+					"Fresh",
+					"Astro",
+					"Three.js",
+					"Framer Motion",
+					"Tailwind CSS"
+				]
+			},
+			{
+				"title": "Weitere Kenntnisse",
+				"skills": [
+					"Linux",
+					"Docker",
+					"Kubernetes",
+					"Traefik",
+					"Payloadcms",
+					"Directus",
+					"Strapi",
+					"Git",
+					"HTML",
+					"SCSS",
+					"SQL",
+					"NoSQL",
+					"Deutsch",
+					"Englisch"
+				]
+			}
+		]
+	},
+	"projects": {
+		"title": "Projekte"
+	},
+	"contact": {
+		"title": "Kontakt",
+		"mail": "E-Mail",
+		"message": "Nachricht",
+		"send": "Absenden",
+		"sent": "Vielen Dank für deine Nachricht!",
+		"failed": "Etwas ist schief gelaufen :("
+	},
+	"footer": {
+		"imprint": "Impressum",
+		"privacy": "Datenschutz"
+	}
 }
