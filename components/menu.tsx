@@ -7,21 +7,7 @@ const Menu = (data: { lang: State["lang"] }) => (
       "
 	>
 		<Language lang={data.lang} />
-		<a
-			href={`/cv-${data.lang}.pdf`}
-			target="_blank"
-			class="h-4 w-4 bg-gray-dark rounded-xl p-0.5 cursor-pointer group transition-colors border-2 border-transparent hover:border-gray-light"
-			rel="noreferrer"
-		>
-			<img
-				src="/vectors/cv.svg"
-				width="16"
-				height="16"
-				class="
-          w-full h-full transition-colors duration-150"
-				alt="CV"
-			/>
-		</a>
+		
 	</div>
 );
 export default Menu;
