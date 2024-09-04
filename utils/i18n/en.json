@@ -1,6 +1,6 @@
 {
 	"me": {
-		"text": "Gude! I was born on 29.01.1996 in Aschaffenburg and I am in the process of making the web more beautiful and faster.\nLiving in Cologne-Ehrenfeld, studying again in Aachen and currently working at ShiftDigital."
+		"text": "Gude! I was born on January 29, 1996, in Aschaffenburg, and I am working on making the internet more appealing, beautiful, and efficient.\nI live in Cologne-Ehrenfeld and currently work at publicplan."
 	},
 	"education": {
 		"title": "Education",
@@ -37,7 +37,7 @@
 					{
 						"role": "Cloud and Web Engineer",
 						"tasks": [
-							"Establishing and structuring an efficient OpenGov ticketing system",
+							"Defining a suitable technology stack and architecture for an OpenGov ticketing system",
 							"Creating and optimizing a scalable, high-availability Kubernetes cluster for our SaaS offerings"
 						]
 					},
@@ -111,7 +111,7 @@
 		"sections": [
 			{
 				"title": "Programming languages",
-				"skills": ["JavaScript", "TypeScript", "Golang", "C++", "Python"]
+				"skills": [ "TypeScript", "JavaScript","Golang", "C++", "Python"]
 			},
 			{
 				"title": "Libraries and Frameworks",
@@ -127,11 +127,11 @@
 					"Node",
 					"Deno",
 					"Fastify",
-					"Nest.js",
+					"trpc",
 					"Oak",
 					"Fresh",
 					"Astro",
-					"Three.js",
+					"Turborepo",
 					"Framer Motion",
 					"Tailwind CSS"
 				]
