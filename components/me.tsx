@@ -4,7 +4,7 @@ const Me = (data: { translation: Translation["me"] }) => (
 	<div class="flex md:flex-col justify-between gap-10 md:gap-y-3 items-center md:items-start">
 		<div class="md:order-2">
 			<h1>Max Schmidt</h1>
-			<h2 class="my-1">Software Engineer</h2>
+			<h2 class="my-1">Web Engineer</h2>
 			<p class="whitespace-pre-wrap">{data.translation.text}</p>
 		</div>
 		<img
