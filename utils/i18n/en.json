@@ -35,14 +35,14 @@
 				"date": "since December 2022, Bochum",
 				"stations": [
 					{
-						"role": "Cloud and Web Engineer",
+						"role": "Web Engineer",
 						"tasks": [
 							"Defining a suitable technology stack and architecture for an OpenGov ticketing system",
 							"Creating and optimizing a scalable, high-availability Kubernetes cluster for our SaaS offerings"
 						]
 					},
 					{
-						"role": "Frontend Web Developer - Working student - till December 2023",
+						"role": "FFull Stack Web Developer - Working student - till December 2023",
 						"tasks": [
 							"Further development of the Shift Studio frontend based on React",
 							"Design and implementation of an admin tool to monitor the instances and statistics of Shift Studio using Remix and Deno"
