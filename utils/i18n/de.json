@@ -111,7 +111,13 @@
 		"sections": [
 			{
 				"title": "Programmiersprachen",
-				"skills": [ "TypeScript", "JavaScript","Golang", "C++", "Python"]
+				"skills": [
+					"TypeScript",
+					"JavaScript",
+					"Golang",
+					"C++",
+					"Python"
+				]
 			},
 			{
 				"title": "Bibliotheken und Frameworks",
@@ -133,7 +139,9 @@
 					"Astro",
 					"Turborepo",
 					"Framer Motion",
-					"Tailwind CSS"
+					"Tailwind CSS",
+					"Playwright",
+					"Vitest"
 				]
 			},
 			{
