@@ -1,11 +1,11 @@
-import Menu from "../components/menu.tsx";
-import Me from "../components/me.tsx";
 import Education from "../components/education.tsx";
 import Experience from "../components/experience.tsx";
-import Skills from "../components/skills.tsx";
-import Projects from "../components/projects.tsx";
-import Contact from "../islands/contact.tsx";
 import Footer from "../components/footer.tsx";
+import Me from "../components/me.tsx";
+import Menu from "../components/menu.tsx";
+import Projects from "../components/projects.tsx";
+import Skills from "../components/skills.tsx";
+import Contact from "../islands/contact.tsx";
 
 import type { State } from "../utils/types.ts";
 
@@ -20,9 +20,9 @@ const Index = (ctx: RouteContext) => {
 			<Me translation={translation.me} />
 			<Experience translation={translation.experience} />
 			<Education translation={translation.education} />
-			<Skills translation={translation.skills} />
+			{/* <Skills translation={translation.skills} />
 			<Projects translation={translation.projects} />
-			<Contact translation={translation.contact} />
+			<Contact translation={translation.contact} /> */}
 			<Footer translation={translation.footer} />
 		</div>
 	);

@@ -31,8 +31,21 @@
 		"title": "Erfahrung",
 		"jobs": [
 			{
+				"name": "voize",
+				"date": "seit März 2025, Köln",
+				"stations": [
+					{
+						"role": "Software Engineer",
+						"tasks": [
+							"Weiterentwicklung des internen Device Management Tools",
+							"Weiterentwicklung des internen Trainingstools für das Data Team zur Optimierung der KI-Systeme"
+						]
+					}
+				]
+			},
+			{
 				"name": "ShiftDigital / puplicplan",
-				"date": "seit Dezember 2022, Bochum / Düsseldorf",
+				"date": "Dezember 2022 - Februar 2025, Bochum",
 				"stations": [
 					{
 						"role": "Web Engineer",
@@ -111,13 +124,7 @@
 		"sections": [
 			{
 				"title": "Programmiersprachen",
-				"skills": [
-					"TypeScript",
-					"JavaScript",
-					"Golang",
-					"C++",
-					"Python"
-				]
+				"skills": ["TypeScript", "JavaScript", "Golang", "C++", "Python"]
 			},
 			{
 				"title": "Bibliotheken und Frameworks",

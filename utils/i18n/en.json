@@ -31,8 +31,21 @@
 		"title": "Experience",
 		"jobs": [
 			{
+				"name": "voize GmbH",
+				"date": "since March 2025, Cologne",
+				"stations": [
+					{
+						"role": "Software Engineer",
+						"tasks": [
+							"Further development of the internal device management tool",
+							"Enhancement of the internal training tool used by the data team for training our artificial intelligence systems"
+						]
+					}
+				]
+			},
+			{
 				"name": "ShiftDigital / publicplan",
-				"date": "since December 2022, Bochum",
+				"date": "December 2022 - February 2025, Bochum",
 				"stations": [
 					{
 						"role": "Web Engineer",
@@ -111,13 +124,7 @@
 		"sections": [
 			{
 				"title": "Programming languages",
-				"skills": [
-					"TypeScript",
-					"JavaScript",
-					"Golang",
-					"C++",
-					"Python"
-				]
+				"skills": ["TypeScript", "JavaScript", "Golang", "C++", "Python"]
 			},
 			{
 				"title": "Libraries and Frameworks",
