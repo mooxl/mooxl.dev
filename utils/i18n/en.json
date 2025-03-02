@@ -48,7 +48,7 @@
 				"date": "December 2022 - February 2025, Bochum",
 				"stations": [
 					{
-						"role": "Web Engineer",
+						"role": "Software Engineer",
 						"tasks": [
 							"Defining a suitable technology stack and architecture for an OpenGov ticketing system",
 							"Creating and optimizing a scalable, high-availability Kubernetes cluster for our SaaS offerings"
