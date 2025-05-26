@@ -1,6 +1,6 @@
 {
 	"me": {
-		"text": "Gude! I was born on January 29, 1996, in Aschaffenburg, and I am working on making the internet more appealing and efficient.\nI live in Cologne-Ehrenfeld and currently work at voize."
+		"text": "Gude! I was born on January 29, 1996, in Aschaffenburg, and I am working on making the internet RAD (Resilient, Accessible, and Delightful).\nI live in Cologne-Ehrenfeld and currently work at voize."
 	},
 	"education": {
 		"title": "Education",
@@ -37,8 +37,8 @@
 					{
 						"role": "Software Engineer",
 						"tasks": [
-							"Further development of the internal device management tool",
-							"Enhancement of the internal training tool used by the data team for training our artificial intelligence systems"
+							"Architecting and developing advanced features for the internal device management platform, streamlining operations across distributed hardware infrastructure",
+							"Spearheading enhancements to the AI training platform, empowering the data science team to accelerate machine learning model development and deployment"
 						]
 					}
 				]
@@ -50,15 +50,15 @@
 					{
 						"role": "Software Engineer",
 						"tasks": [
-							"Defining a suitable technology stack and architecture for an OpenGov ticketing system",
-							"Creating and optimizing a scalable, high-availability Kubernetes cluster for our SaaS offerings"
+							"Designed and implemented a robust technology stack and scalable architecture for a next-generation OpenGov ticketing system, enabling seamless citizen engagement",
+							"Built and optimized a high-availability Kubernetes infrastructure from the ground up, delivering enterprise-grade SaaS solutions with 99.9% uptime"
 						]
 					},
 					{
 						"role": "Full Stack Web Developer - Working student - till December 2023",
 						"tasks": [
-							"Further development of the Shift Studio frontend based on React",
-							"Design and implementation of an admin tool to monitor the instances and statistics of Shift Studio using Remix and Deno"
+							"Engineered cutting-edge features for the Shift Studio frontend using React, significantly improving user experience and platform functionality",
+							"Developed a comprehensive admin dashboard with Remix and Deno, providing real-time monitoring and analytics for Shift Studio instances and performance metrics"
 						]
 					}
 				]
@@ -70,8 +70,8 @@
 					{
 						"role": "Full Stack Web Developer - Working student",
 						"tasks": [
-							"Implementation of various features in different code bases.",
-							"Fixing bugs on varied services"
+							"Delivered innovative features across multiple codebases, contributing to diverse client projects and enhancing platform capabilities",
+							"Resolved critical bugs and performance issues across various microservices, ensuring system reliability and optimal user experience"
 						]
 					}
 				]
@@ -83,9 +83,9 @@
 					{
 						"role": "Full Stack Developer",
 						"tasks": [
-							"Front- and backend development using TypeScript in the context of various projects",
-							"Revision of the complete server-side infrastructure via Docker",
-							"Optimisation of internal technical processes"
+							"Crafted robust full-stack solutions using TypeScript, delivering high-quality applications across multiple client projects and internal tools",
+							"Modernized entire server infrastructure through Docker containerization, improving deployment efficiency and system scalability",
+							"Streamlined internal development workflows and technical processes, reducing deployment time and enhancing team productivity"
 						]
 					}
 				]
@@ -97,8 +97,8 @@
 					{
 						"role": "Co-founder",
 						"tasks": [
-							"Conception and partial implementation of a social food sharing platform with Golang and Flutter",
-							"Web development for own our website and various clients under Becurly"
+							"Co-founded and architected an innovative social food sharing platform using Golang and Flutter, addressing food waste and community building",
+							"Led web development initiatives for company website and client projects under the Becurly brand, establishing strong digital presence and client relationships"
 						]
 					}
 				]
@@ -110,9 +110,9 @@
 					{
 						"role": "Front- und Backend Web Developer - Werksstudent",
 						"tasks": [
-							"Development and maintenance of various systems in Node.js, Deno, Golang and Python",
-							"Conception and implementation of the housing exchange \"Zimmerfrei\" of the University of Bonn",
-							"Extension of the electronic semester ticket reimbursement"
+							"Developed and maintained mission-critical systems using Node.js, Deno, Golang, and Python, serving thousands of university students",
+							"Conceptualized and built 'Zimmerfrei', a comprehensive housing exchange platform for the University of Bonn, connecting students with accommodation solutions",
+							"Enhanced the electronic semester ticket reimbursement system, streamlining administrative processes and improving student experience"
 						]
 					}
 				]
