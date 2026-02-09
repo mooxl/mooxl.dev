@@ -4,10 +4,10 @@ export default function App({ Component }: PageProps) {
 	return (
 		<html lang="de">
 			<head>
-				<title>Max Schmidt - Software Engineer</title>
+				<title>Max Schmidt - Product Engineer</title>
 				<meta
 					name="description"
-					content="Software Engineer and TypeScript enthusiast"
+					content="Product Engineer and TypeScript enthusiast"
 				/>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
