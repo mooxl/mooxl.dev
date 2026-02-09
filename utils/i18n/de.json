@@ -1,18 +1,18 @@
 {
 	"me": {
-			"text": "Gude! Ich bin am 29.01.1996 in Aschaffenburg geboren und bin dabei, das Web RAD (Resilient, Accessible, und Delightful) zu machen.\nLebe in Köln-Ehrenfeld und arbeite derzeit bei voize."
+			"text": "Gude! Ich bin am 29.01.1996 in Aschaffenburg geboren und bin dabei, das Web RAD (Resilient, Accessible, und Delightful) zu machen.\nLebe in Köln-Ehrenfeld und arbeite derzeit als Product Engineer bei voize."
 		},
 	"education": {
 		"title": "Ausbildung",
 		"milestones": [
 			{
 				"title": "FH Aachen | M. Eng. Information Systems Engineering",
-				"date": "März 2022 - März 2024",
+				"date": "März 2022 – März 2024",
 				"text": "Master of Engineering\nSchwerpunkt: Verteilte Systeme und Management"
 			},
 			{
 				"title": "FH Aachen | B. Sc. Informatik",
-				"date": "September 2017 - Februar 2021",
+				"date": "September 2017 – Februar 2021",
 				"text": "Bachelor of Science\nSchwerpunkt: Software Engineering"
 			},
 			{
@@ -35,7 +35,14 @@
 				"date": "seit März 2025, Berlin",
 				"stations": [
 					{
-						"role": "Software Engineer",
+						"role": "Product Engineer - seit Januar 2026",
+						"tasks": [
+							"Verantwortung für interne Tools im Datenbereich, Gestaltung der Produktrichtung und Entwicklung",
+							"End-to-End Feature-Entwicklung von Anforderungsanalyse über Design bis zur Implementierung"
+						]
+					},
+					{
+						"role": "Software Engineer - März 2025 – Dezember 2025",
 						"tasks": [
 							"Entwicklung und Verbesserung des internen Device-Management-Tools zur Optimierung der Hardware-Verwaltung",
 							"Weiterentwicklung der internen Trainingsplattform zur Unterstützung des Data- und ML-Teams bei der Entwicklung von neuen KI-Modellen"
@@ -45,7 +52,7 @@
 			},
 			{
 				"name": "ShiftDigital / puplicplan",
-				"date": "Dezember 2022 - Februar 2025, Bochum",
+				"date": "Dezember 2022 – Februar 2025, Bochum",
 				"stations": [
 					{
 						"role": "Software Engineer",
@@ -65,7 +72,7 @@
 			},
 			{
 				"name": "Ambient",
-				"date": "April 2022 - Dezember 2022, Köln",
+				"date": "April 2022 – Dezember 2022, Köln",
 				"stations": [
 					{
 						"role": "Full Stack Web Developer - Werksstudent",
@@ -78,7 +85,7 @@
 			},
 			{
 				"name": "Mediaatrium",
-				"date": "Februar 2021 - März 2022, Laufach",
+				"date": "Februar 2021 – März 2022, Laufach",
 				"stations": [
 					{
 						"role": "Full Stack Developer",
@@ -92,7 +99,7 @@
 			},
 			{
 				"name": "Curly UG",
-				"date": "Dezember 2019 - Februar 2021, Aachen",
+				"date": "Dezember 2019 – Februar 2021, Aachen",
 				"stations": [
 					{
 						"role": "Mitgründer",
@@ -105,7 +112,7 @@
 			},
 			{
 				"name": "AStA FH Aachen",
-				"date": "November 2018 - Mai 2023, Aachen",
+				"date": "November 2018 – Mai 2023, Aachen",
 				"stations": [
 					{
 						"role": "Front- und Backend Web Developer - Werksstudent",

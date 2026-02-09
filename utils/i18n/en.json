@@ -1,18 +1,18 @@
 {
 	"me": {
-		"text": "Gude! I was born on January 29, 1996, in Aschaffenburg, and I am working on making the web RAD (Resilient, Accessible, and Delightful).\nI live in Cologne-Ehrenfeld and currently work at voize."
+		"text": "Gude! I was born on January 29, 1996, in Aschaffenburg, and I am working on making the web RAD (Resilient, Accessible, and Delightful).\nI live in Cologne-Ehrenfeld and currently work as a Product Engineer at voize."
 	},
 	"education": {
 		"title": "Education",
 		"milestones": [
 			{
 				"title": "FH Aachen | M. Eng. Information Systems Engineering",
-				"date": "March 2022 - March 2024",
+				"date": "March 2022 – March 2024",
 				"text": "Master of Engineering\nFocus: Distributed Systems and Management"
 			},
 			{
 				"title": "FH Aachen | B. Sc. Computer Science",
-				"date": "September 2017 - February 2021",
+				"date": "September 2017 – February 2021",
 				"text": "Bachelor of Science\nFocus: Software Engineering"
 			},
 			{
@@ -35,7 +35,14 @@
 				"date": "since March 2025, Berlin",
 				"stations": [
 					{
-						"role": "Software Engineer",
+						"role": "Product Engineer - since January 2026",
+						"tasks": [
+							"Owning internal tooling for data operations, driving product direction and development",
+							"Leading end-to-end feature development from requirements gathering through design to implementation"
+						]
+					},
+					{
+						"role": "Software Engineer - March 2025 – December 2025",
 						"tasks": [
 							"Architecting and developing advanced features for the internal device management platform, streamlining operations across distributed hardware infrastructure",
 							"Spearheading enhancements to the AI training platform, empowering the data science team to accelerate machine learning model development and deployment"
@@ -45,7 +52,7 @@
 			},
 			{
 				"name": "ShiftDigital / publicplan",
-				"date": "December 2022 - February 2025, Bochum",
+				"date": "December 2022 – February 2025, Bochum",
 				"stations": [
 					{
 						"role": "Software Engineer",
@@ -65,7 +72,7 @@
 			},
 			{
 				"name": "Ambient",
-				"date": "April 2022 - December 2022, Cologne",
+				"date": "April 2022 – December 2022, Cologne",
 				"stations": [
 					{
 						"role": "Full Stack Web Developer - Working student",
@@ -78,7 +85,7 @@
 			},
 			{
 				"name": "Mediaatrium",
-				"date": "February 2021 - March 2022, Laufach",
+				"date": "February 2021 – March 2022, Laufach",
 				"stations": [
 					{
 						"role": "Full Stack Developer",
@@ -92,7 +99,7 @@
 			},
 			{
 				"name": "Curly UG",
-				"date": "December 2019 - February 2021, Aachen",
+				"date": "December 2019 – February 2021, Aachen",
 				"stations": [
 					{
 						"role": "Co-founder",
@@ -105,7 +112,7 @@
 			},
 			{
 				"name": "AStA FH Aachen",
-				"date": "November 2018 - May 2023, Aachen",
+				"date": "November 2018 – May 2023, Aachen",
 				"stations": [
 					{
 						"role": "Front- und Backend Web Developer - Werksstudent",
