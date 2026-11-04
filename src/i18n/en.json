@@ -1,0 +1,133 @@
+{
+	"me": {
+		"text": "Gude! I was born on January 29, 1996, in Aschaffenburg, and I am working on making the web RAD (Resilient, Accessible, and Delightful).\nI live in Cologne-Ehrenfeld and currently work as a Product Engineer at voize."
+	},
+	"education": {
+		"title": "Education",
+		"milestones": [
+			{
+				"title": "FH Aachen | M. Eng. Information Systems Engineering",
+				"date": "March 2022 – March 2024",
+				"text": "Master of Engineering\nFocus: Distributed Systems and Management"
+			},
+			{
+				"title": "FH Aachen | B. Sc. Computer Science",
+				"date": "September 2017 – February 2021",
+				"text": "Bachelor of Science\nFocus: Software Engineering"
+			},
+			{
+				"title": "FOSBOS Aschaffenburg",
+				"date": "2012-2015",
+				"text": "Technical Diploma\nFocus: technology, mathematics and natural sciences"
+			},
+			{
+				"title": "Realschule Bessenbach",
+				"date": "2008-2012",
+				"text": "Medium Maturity\nFocus: mathematics and natural science"
+			}
+		]
+	},
+	"experience": {
+		"title": "Experience",
+		"jobs": [
+			{
+				"name": "voize",
+				"date": "since March 2025, Berlin",
+				"stations": [
+					{
+						"role": "Product Engineer - since January 2026",
+						"tasks": [
+							"Owning internal tooling for data operations, driving product direction and development",
+							"Leading end-to-end feature development from requirements gathering through design to implementation"
+						]
+					},
+					{
+						"role": "Software Engineer - March 2025 – December 2025",
+						"tasks": [
+							"Architecting and developing advanced features for the internal device management platform, streamlining operations across distributed hardware infrastructure",
+							"Spearheading enhancements to the AI training platform, empowering the data science team to accelerate machine learning model development and deployment"
+						]
+					}
+				]
+			},
+			{
+				"name": "ShiftDigital / publicplan",
+				"date": "December 2022 – February 2025, Bochum",
+				"stations": [
+					{
+						"role": "Software Engineer",
+						"tasks": [
+							"Designed and implemented a robust technology stack and scalable architecture for a next-generation OpenGov ticketing system, enabling seamless citizen engagement",
+							"Built and optimized a high-availability Kubernetes infrastructure from the ground up, delivering enterprise-grade SaaS solutions with 99.9% uptime"
+						]
+					},
+					{
+						"role": "Full Stack Web Developer - Working student - till December 2023",
+						"tasks": [
+							"Engineered cutting-edge features for the Shift Studio frontend using React, significantly improving user experience and platform functionality",
+							"Developed a comprehensive admin dashboard with Remix and Deno, providing real-time monitoring and analytics for Shift Studio instances and performance metrics"
+						]
+					}
+				]
+			},
+			{
+				"name": "Ambient",
+				"date": "April 2022 – December 2022, Cologne",
+				"stations": [
+					{
+						"role": "Full Stack Web Developer - Working student",
+						"tasks": [
+							"Delivered innovative features across multiple codebases, contributing to diverse client projects and enhancing platform capabilities",
+							"Resolved critical bugs and performance issues across various microservices, ensuring system reliability and optimal user experience"
+						]
+					}
+				]
+			},
+			{
+				"name": "Mediaatrium",
+				"date": "February 2021 – March 2022, Laufach",
+				"stations": [
+					{
+						"role": "Full Stack Developer",
+						"tasks": [
+							"Crafted robust full-stack solutions using TypeScript, delivering high-quality applications across multiple client projects and internal tools",
+							"Modernized entire server infrastructure through Docker containerization, improving deployment efficiency and system scalability",
+							"Streamlined internal development workflows and technical processes, reducing deployment time and enhancing team productivity"
+						]
+					}
+				]
+			},
+			{
+				"name": "Curly UG",
+				"date": "December 2019 – February 2021, Aachen",
+				"stations": [
+					{
+						"role": "Co-founder",
+						"tasks": [
+							"Co-founded and architected an innovative social food sharing platform using Golang and Flutter, addressing food waste and community building",
+							"Led web development initiatives for company website and client projects under the Becurly brand, establishing strong digital presence and client relationships"
+						]
+					}
+				]
+			},
+			{
+				"name": "AStA FH Aachen",
+				"date": "November 2018 – May 2023, Aachen",
+				"stations": [
+					{
+						"role": "Front- und Backend Web Developer - Werksstudent",
+						"tasks": [
+							"Developed and maintained mission-critical systems using Node.js, Deno, Golang, and Python, serving thousands of university students",
+							"Conceptualized and built 'Zimmerfrei', a comprehensive housing exchange platform for the University of Bonn, connecting students with accommodation solutions",
+							"Enhanced the electronic semester ticket reimbursement system, streamlining administrative processes and improving student experience"
+						]
+					}
+				]
+			}
+		]
+	},
+	"footer": {
+		"imprint": "imprint",
+		"privacy": "privacy policy"
+	}
+}

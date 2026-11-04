@@ -1,0 +1,8 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "mooxl",
+	"compatibility_date": "2026-11-04",
+	"assets": { "directory": "./dist" },
+	// a route rather than a custom domain, so the existing proxied DNS records can stay
+	"routes": [{ "pattern": "mooxl.dev/*", "zone_id": "7a89315b60aff7c61ccab936b7c8fb5b" }]
+}

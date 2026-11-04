@@ -1,0 +1,10 @@
+/*
+  Content-Security-Policy: base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  Referrer-Policy: origin-when-cross-origin
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable

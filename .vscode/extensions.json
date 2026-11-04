@@ -1,6 +1,4 @@
 {
-  "recommendations": [
-    "denoland.vscode-deno",
-    "sastan.twind-intellisense"
-  ]
+  "recommendations": ["astro-build.astro-vscode"],
+  "unwantedRecommendations": []
 }

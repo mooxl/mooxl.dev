@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@import "./fonts.css";
+
+/* html is 62.5%, so 1rem = 10px and p-1 = 10px */
+@theme {
+	--text-*: initial;
+	--text-xs: 1.4rem;
+	--text-sm: 1.6rem;
+	--text-md: 2.1rem;
+	--text-lg: 3rem;
+	--text-xl: 5rem;
+	--spacing: 1rem;
+	--breakpoint-*: initial;
+	--breakpoint-sm: 640px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 1040px;
+	--container-xl: 1000px;
+	--font-plex: "Mooxl Sans", sans-serif;
+	--color-gray: #111111;
+	--color-gray-light: #888888;
+	--color-gray-dark: #222222;
+}
+
+@layer base {
+	html {
+		@apply bg-gray text-[62.5%];
+	}
+	body {
+		@apply text-sm text-white font-plex leading-none tracking-wide;
+	}
+	h1 {
+		@apply text-xl leading-none font-bold max-sm:text-lg;
+	}
+	h2 {
+		@apply text-lg font-bold text-gray-light max-sm:text-md;
+	}
+	h3 {
+		@apply text-right uppercase text-md font-bold text-gray-light max-lg:mt-6 max-lg:mb-2 max-md:mt-4 max-lg:text-left;
+	}
+	h4 {
+		@apply text-white font-bold text-md mb-1 max-md:mb-[0.8rem];
+	}
+	h5 {
+		@apply text-gray-light leading-snug;
+	}
+	ul {
+		@apply list-disc list-inside;
+	}
+	li {
+		@apply text-gray-light leading-normal;
+	}
+	a {
+		@apply text-gray-light leading-normal;
+	}
+	p {
+		@apply text-gray-light leading-snug;
+	}
+}
