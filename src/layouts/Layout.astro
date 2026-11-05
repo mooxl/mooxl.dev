@@ -1,14 +1,14 @@
 ---
 import "../styles/global.css";
 
-const { lang = "de" } = Astro.props;
+const { lang = "de", title = "Max Schmidt - Product Engineer" } = Astro.props;
 ---
 
 <html lang={lang}>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-		<title>Max Schmidt - Product Engineer</title>
+		<title>{title}</title>
 		<meta name="description" content="Product Engineer and TypeScript enthusiast" />
 		<link rel="icon" href="/favicon.ico" />
 		<!-- hold the first paint until the whole page is parsed, so the grid never paints half-built -->

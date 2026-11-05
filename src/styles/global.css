@@ -36,12 +36,9 @@
 		@apply text-lg font-bold text-gray-light max-sm:text-md;
 	}
 	h3 {
-		@apply text-right uppercase text-md font-bold text-gray-light max-lg:mt-6 max-lg:mb-2 max-md:mt-4 max-lg:text-left;
-	}
-	h4 {
 		@apply text-white font-bold text-md mb-1 max-md:mb-[0.8rem];
 	}
-	h5 {
+	h4 {
 		@apply text-gray-light leading-snug;
 	}
 	ul {
