@@ -5,6 +5,11 @@
   X-Content-Type-Options: nosniff
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+  # prerender same-site pages on hover (Chromium), so navigation is instant
+  Speculation-Rules: "/speculationrules.json"
 
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+
+/speculationrules.json
+  Content-Type: application/speculationrules+json

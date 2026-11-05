@@ -8,8 +8,8 @@ Run by hand and commit the output:  uv run scripts/subset-fonts.py
 
 Writes src/assets/fonts/*.woff2 and src/styles/fonts.css. The build embeds the core files in the
 inlined CSS (see astro.config.mjs) and content-hashes the extended ones into
-/_astro/. Rerun when
-- content gains a non-ASCII character that isn't in the core yet. Until then it
+/_astro/. It builds the site first to find the characters the pages render. Rerun when
+- content gains a character that isn't in the core yet. Until then it
   still renders in Plex from the extended file, but it costs an extra download
   and loses kerning with its neighbours; outside Latin-1 and Latin Extended-A
   it falls back to sans-serif,
@@ -17,6 +17,8 @@ inlined CSS (see astro.config.mjs) and content-hashes the extended ones into
 - a source font in fonts/ changes.
 """
 
+import subprocess
+from html.parser import HTMLParser
 from pathlib import Path
 
 from fontTools import subset
@@ -34,14 +36,30 @@ LATIN = set(range(0xA0, 0x100)) | set(range(0x100, 0x180))  # Latin-1 Supplement
 FEATURES = ["ccmp", "locl", "liga", "kern", "mark"]
 
 
+class TextOnly(HTMLParser):
+	def __init__(self):
+		super().__init__()
+		self.text, self.skip = [], 0
+
+	def handle_starttag(self, tag, attrs):
+		self.skip += tag in ("style", "script", "title")
+
+	def handle_endtag(self, tag):
+		self.skip -= tag in ("style", "script", "title")
+
+	def handle_data(self, data):
+		if not self.skip:
+			self.text.append(data)
+
+
 def content_chars():
-	"""Every non-ASCII character in the site sources, plus case variants for text-transform."""
-	chars = set()
-	for path in (ROOT / "src").rglob("*"):
-		if path.suffix in {".astro", ".json", ".md", ".mdx", ".ts", ".css"}:
-			text = path.read_text()
-			chars |= {ord(c) for c in text + text.upper() + text.lower() if ord(c) > 0x7E}
-	return chars
+	"""Every character the built pages render, plus case variants for text-transform."""
+	subprocess.run(["pnpm", "build"], cwd=ROOT, check=True, capture_output=True)
+	parser = TextOnly()
+	for page in (ROOT / "dist").rglob("*.html"):
+		parser.feed(page.read_text())
+	text = "".join(parser.text)
+	return {ord(c) for c in text + text.upper() + text.lower()} - {ord(c) for c in "\n\r\t"}
 
 
 def make(source, unicodes, out):
@@ -80,10 +98,11 @@ def unicode_range(codepoints):
 
 def main():
 	used = content_chars()
-	# Characters from different files can't kern with each other (e.g. "Kö"), so every character
-	# the content uses goes into the core. The extended file only covers characters added later.
-	core = ASCII | PUNCTUATION | used
-	extended = (LATIN | used) - core
+	# Characters from different files can't kern with each other (e.g. "Kö"), so the core holds
+	# every character the pages render. The extended file covers the rest of ASCII, Latin-1 and
+	# Latin Extended-A for content added before the next rerun.
+	core = PUNCTUATION | used
+	extended = (ASCII | LATIN) - core
 	out_dir = ROOT / "src/assets/fonts"
 	out_dir.mkdir(parents=True, exist_ok=True)
 	for old in out_dir.glob(f"{FILE}-*.woff2"):

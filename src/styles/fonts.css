@@ -4,26 +4,26 @@
 	font-weight: 400;
 	font-display: block;
 	src: url(../assets/fonts/mooxl-sans-400-core.woff2) format("woff2");
-	unicode-range: U+20-7E, U+A7, U+C4, U+D6, U+DC, U+DF, U+E4, U+F6, U+FC, U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026;
+	unicode-range: U+20-21, U+25, U+27-29, U+2C-3B, U+40-5A, U+5F, U+61-7A, U+7C, U+A7, U+C4, U+D6, U+DC, U+DF, U+E4, U+F6, U+FC, U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026;
 }
 @font-face {
 	font-family: "Mooxl Sans";
 	font-weight: 400;
 	font-display: block;
 	src: url(../assets/fonts/mooxl-sans-400-ext.woff2) format("woff2");
-	unicode-range: U+A0-A6, U+A8-C3, U+C5-D5, U+D7-DB, U+DD-DE, U+E0-E3, U+E5-F5, U+F7-FB, U+FD-17F;
+	unicode-range: U+22-24, U+26, U+2A-2B, U+3C-3F, U+5B-5E, U+60, U+7B, U+7D-7E, U+A0-A6, U+A8-C3, U+C5-D5, U+D7-DB, U+DD-DE, U+E0-E3, U+E5-F5, U+F7-FB, U+FD-17F;
 }
 @font-face {
 	font-family: "Mooxl Sans";
 	font-weight: 700;
 	font-display: block;
 	src: url(../assets/fonts/mooxl-sans-700-core.woff2) format("woff2");
-	unicode-range: U+20-7E, U+A7, U+C4, U+D6, U+DC, U+DF, U+E4, U+F6, U+FC, U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026;
+	unicode-range: U+20-21, U+25, U+27-29, U+2C-3B, U+40-5A, U+5F, U+61-7A, U+7C, U+A7, U+C4, U+D6, U+DC, U+DF, U+E4, U+F6, U+FC, U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026;
 }
 @font-face {
 	font-family: "Mooxl Sans";
 	font-weight: 700;
 	font-display: block;
 	src: url(../assets/fonts/mooxl-sans-700-ext.woff2) format("woff2");
-	unicode-range: U+A0-A6, U+A8-C3, U+C5-D5, U+D7-DB, U+DD-DE, U+E0-E3, U+E5-F5, U+F7-FB, U+FD-17F;
+	unicode-range: U+22-24, U+26, U+2A-2B, U+3C-3F, U+5B-5E, U+60, U+7B, U+7D-7E, U+A0-A6, U+A8-C3, U+C5-D5, U+D7-DB, U+DD-DE, U+E0-E3, U+E5-F5, U+F7-FB, U+FD-17F;
 }
