@@ -25,5 +25,6 @@
       "esbuild",
       "workerd"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.32.1"
 }
